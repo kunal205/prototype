@@ -1,0 +1,65 @@
+{
+  "colors": {
+    "Light": {
+      "bg": "#FAF8F4",
+      "card": "#FFFFFF",
+      "text": "#282133",
+      "muted": "#6D6479",
+      "primary": "#7450AA",
+      "onPrimary": "#FFFFFF",
+      "border": "#E6E0EC",
+      "soft": "#EFE8F6",
+      "green": "#357551"
+    },
+    "Dark": {
+      "bg": "#1D1926",
+      "card": "#292334",
+      "text": "#F6F1FC",
+      "muted": "#C1B5CD",
+      "primary": "#B99ADD",
+      "onPrimary": "#241730",
+      "border": "#44394F",
+      "soft": "#382E45",
+      "green": "#92C5A4"
+    },
+    "Wireframe": {
+      "bg": "#F5F5F3",
+      "card": "#FFFFFF",
+      "text": "#232323",
+      "muted": "#646464",
+      "primary": "#333333",
+      "onPrimary": "#FFFFFF",
+      "border": "#DCDCD8",
+      "soft": "#EAEAE6",
+      "green": "#666666"
+    }
+  },
+  "motion": {
+    "durationsMs": {
+      "micro": 150,
+      "local": 240,
+      "navigation": 360,
+      "celebration": 900,
+      "theme": 280,
+      "reduced": 120
+    },
+    "spring": {
+      "navigation": {
+        "stiffness": 260,
+        "damping": 24,
+        "mass": 1
+      },
+      "reward": {
+        "stiffness": 180,
+        "damping": 20,
+        "mass": 1
+      }
+    },
+    "listStagger": {
+      "delayMs": 40,
+      "maxItems": 6
+    },
+    "reducedMotion": "Crossfade only, 120ms. No movement, scale, shimmer or particle motion. OS preference always wins."
+  },
+  "themeStrategy": "Separate Figma Light/Dark collections on Starter. System resolves live in prototype; no third static theme."
+}

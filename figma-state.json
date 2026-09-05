@@ -1,0 +1,11 @@
+{
+  "fileKey": "ErNXt4S6SzvoLsYR80uiZI",
+  "url": "https://www.figma.com/design/ErNXt4S6SzvoLsYR80uiZI",
+  "status": "Partial cloud file; completed local wireframe package",
+  "blocker": "Figma Starter MCP tool-call allowance exhausted before screen creation",
+  "pages": {"wireframes": "0:1", "prototype": "4:4", "components": "4:5"},
+  "collections": {"wireframe": "VariableCollectionId:3:2", "light": "VariableCollectionId:4:6", "dark": "VariableCollectionId:4:7", "motionAndSpacing": "VariableCollectionId:4:8"},
+  "components": {"button": "5:20", "card": "6:2", "input": "6:6", "row": "6:9", "media": "6:11"},
+  "remainingCloudWork": ["Import or recreate screens as native frames", "Expand component variants", "Bind screen colors to separate theme collections", "Wire prototype connections", "Validate native Figma interactions"],
+  "localDeliverables": ["Little-Legacy-Prototype.html", "Little-Legacy-Figma-Import.zip", "design-tokens.json", "screen-specifications.json", "motion-handoff.md"]
+}

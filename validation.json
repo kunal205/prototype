@@ -1,0 +1,371 @@
+{
+  "screenCount": 59,
+  "layouts": [
+    {
+      "id": "launch",
+      "horizontalOverflow": false,
+      "heading": "Little Legacy",
+      "buttons": []
+    },
+    {
+      "id": "welcome",
+      "horizontalOverflow": false,
+      "heading": "Big futures begin small.",
+      "buttons": []
+    },
+    {
+      "id": "signin",
+      "horizontalOverflow": false,
+      "heading": "Welcome back",
+      "buttons": []
+    },
+    {
+      "id": "signup",
+      "horizontalOverflow": false,
+      "heading": "Grow together",
+      "buttons": []
+    },
+    {
+      "id": "verification",
+      "horizontalOverflow": false,
+      "heading": "Check your inbox",
+      "buttons": []
+    },
+    {
+      "id": "recovery",
+      "horizontalOverflow": false,
+      "heading": "Let’s get you back in",
+      "buttons": []
+    },
+    {
+      "id": "reset",
+      "horizontalOverflow": false,
+      "heading": "Choose a new password",
+      "buttons": []
+    },
+    {
+      "id": "session-expired",
+      "horizontalOverflow": false,
+      "heading": "Please sign in again",
+      "buttons": []
+    },
+    {
+      "id": "child-setup",
+      "horizontalOverflow": false,
+      "heading": "Who’s growing with us?",
+      "buttons": []
+    },
+    {
+      "id": "children",
+      "horizontalOverflow": false,
+      "heading": "Your little learners",
+      "buttons": []
+    },
+    {
+      "id": "add-child",
+      "horizontalOverflow": false,
+      "heading": "Add a little learner",
+      "buttons": []
+    },
+    {
+      "id": "edit-child",
+      "horizontalOverflow": false,
+      "heading": "Maya’s profile",
+      "buttons": []
+    },
+    {
+      "id": "remove-child",
+      "horizontalOverflow": false,
+      "heading": "Remove Maya’s profile?",
+      "buttons": []
+    },
+    {
+      "id": "home",
+      "horizontalOverflow": false,
+      "heading": "A little play. A lot of possibility.",
+      "buttons": []
+    },
+    {
+      "id": "home-offline",
+      "horizontalOverflow": false,
+      "heading": "You’re offline",
+      "buttons": []
+    },
+    {
+      "id": "categories",
+      "horizontalOverflow": false,
+      "heading": "What will you discover?",
+      "buttons": []
+    },
+    {
+      "id": "levels",
+      "horizontalOverflow": false,
+      "heading": "One small step at a time",
+      "buttons": []
+    },
+    {
+      "id": "activities",
+      "horizontalOverflow": false,
+      "heading": "Today’s activities",
+      "buttons": []
+    },
+    {
+      "id": "activity",
+      "horizontalOverflow": false,
+      "heading": "A world of colour",
+      "buttons": []
+    },
+    {
+      "id": "steps",
+      "horizontalOverflow": false,
+      "heading": "Let’s find something red",
+      "buttons": []
+    },
+    {
+      "id": "step-2",
+      "horizontalOverflow": false,
+      "heading": "What else is the same?",
+      "buttons": []
+    },
+    {
+      "id": "step-3",
+      "horizontalOverflow": false,
+      "heading": "Celebrate the discovery",
+      "buttons": []
+    },
+    {
+      "id": "feedback",
+      "horizontalOverflow": false,
+      "heading": "How did it feel?",
+      "buttons": []
+    },
+    {
+      "id": "celebration",
+      "horizontalOverflow": false,
+      "heading": "A little growth, together.",
+      "buttons": []
+    },
+    {
+      "id": "progress",
+      "horizontalOverflow": false,
+      "heading": "Look how far you’ve grown",
+      "buttons": []
+    },
+    {
+      "id": "history",
+      "horizontalOverflow": false,
+      "heading": "Your little milestones",
+      "buttons": []
+    },
+    {
+      "id": "history-detail",
+      "horizontalOverflow": false,
+      "heading": "Colour hunt",
+      "buttons": []
+    },
+    {
+      "id": "stories",
+      "horizontalOverflow": false,
+      "heading": "A story to share",
+      "buttons": []
+    },
+    {
+      "id": "story",
+      "horizontalOverflow": false,
+      "heading": "The little seed",
+      "buttons": []
+    },
+    {
+      "id": "reader",
+      "horizontalOverflow": false,
+      "heading": "The little seed",
+      "buttons": []
+    },
+    {
+      "id": "reader-2",
+      "horizontalOverflow": false,
+      "heading": "The little seed",
+      "buttons": []
+    },
+    {
+      "id": "reader-3",
+      "horizontalOverflow": false,
+      "heading": "The little seed",
+      "buttons": []
+    },
+    {
+      "id": "story-video",
+      "horizontalOverflow": false,
+      "heading": "Watch together",
+      "buttons": []
+    },
+    {
+      "id": "story-unavailable",
+      "horizontalOverflow": false,
+      "heading": "This story is resting",
+      "buttons": []
+    },
+    {
+      "id": "story-empty",
+      "horizontalOverflow": false,
+      "heading": "No stories found",
+      "buttons": []
+    },
+    {
+      "id": "community",
+      "horizontalOverflow": false,
+      "heading": "You’re in good company",
+      "buttons": []
+    },
+    {
+      "id": "post",
+      "horizontalOverflow": false,
+      "heading": "Making space for small wins",
+      "buttons": []
+    },
+    {
+      "id": "message",
+      "horizontalOverflow": false,
+      "heading": "A private conversation",
+      "buttons": []
+    },
+    {
+      "id": "app-feedback",
+      "horizontalOverflow": false,
+      "heading": "Help us grow",
+      "buttons": []
+    },
+    {
+      "id": "attachments",
+      "horizontalOverflow": false,
+      "heading": "Add an attachment",
+      "buttons": []
+    },
+    {
+      "id": "submitted",
+      "horizontalOverflow": false,
+      "heading": "Thank you for sharing",
+      "buttons": []
+    },
+    {
+      "id": "shop",
+      "horizontalOverflow": false,
+      "heading": "Tools for together time",
+      "buttons": []
+    },
+    {
+      "id": "product",
+      "horizontalOverflow": false,
+      "heading": "Little discovery kit",
+      "buttons": []
+    },
+    {
+      "id": "request",
+      "horizontalOverflow": false,
+      "heading": "Let’s hear from you",
+      "buttons": []
+    },
+    {
+      "id": "review",
+      "horizontalOverflow": false,
+      "heading": "Check your request",
+      "buttons": []
+    },
+    {
+      "id": "request-received",
+      "horizontalOverflow": false,
+      "heading": "Request Received",
+      "buttons": []
+    },
+    {
+      "id": "notifications",
+      "horizontalOverflow": false,
+      "heading": "A little update",
+      "buttons": []
+    },
+    {
+      "id": "notification",
+      "horizontalOverflow": false,
+      "heading": "A new story is waiting",
+      "buttons": []
+    },
+    {
+      "id": "profile",
+      "horizontalOverflow": false,
+      "heading": "Your little corner",
+      "buttons": []
+    },
+    {
+      "id": "account",
+      "horizontalOverflow": false,
+      "heading": "Account settings",
+      "buttons": []
+    },
+    {
+      "id": "notification-settings",
+      "horizontalOverflow": false,
+      "heading": "Choose your updates",
+      "buttons": []
+    },
+    {
+      "id": "appearance",
+      "horizontalOverflow": false,
+      "heading": "Make yourself comfortable",
+      "buttons": []
+    },
+    {
+      "id": "help",
+      "horizontalOverflow": false,
+      "heading": "A little help",
+      "buttons": []
+    },
+    {
+      "id": "help-detail",
+      "horizontalOverflow": false,
+      "heading": "Play at your child’s pace",
+      "buttons": []
+    },
+    {
+      "id": "terms",
+      "horizontalOverflow": false,
+      "heading": "Terms of use",
+      "buttons": []
+    },
+    {
+      "id": "privacy",
+      "horizontalOverflow": false,
+      "heading": "Your family’s privacy",
+      "buttons": []
+    },
+    {
+      "id": "data-requests",
+      "horizontalOverflow": false,
+      "heading": "Your data, your choices",
+      "buttons": []
+    },
+    {
+      "id": "data-form",
+      "horizontalOverflow": false,
+      "heading": "Data & account request",
+      "buttons": []
+    },
+    {
+      "id": "data-received",
+      "horizontalOverflow": false,
+      "heading": "Request received",
+      "buttons": []
+    }
+  ],
+  "errors": [],
+  "sheet": true,
+  "childSwitch": true,
+  "dark": true,
+  "systemLight": true,
+  "systemDark": true,
+  "reducedMotion": true,
+  "formError": true,
+  "signin": true,
+  "skipCelebration": true,
+  "mobileOverflow": false,
+  "links": []
+}

@@ -1,0 +1,100 @@
+{
+  "errors": [],
+  "books": 10,
+  "searchBars": 0,
+  "filters": {
+    "Nature": 2,
+    "Kindness": 2,
+    "Feelings": 2,
+    "Adventure": 2,
+    "Bedtime": 2,
+    "All": 10
+  },
+  "details": [
+    {
+      "title": "The little seed",
+      "covers": 1,
+      "description": "A tiny seed discovers that growing takes patience, care, and its own special time.",
+      "chapters": 3,
+      "coverBeforeTitle": true,
+      "overflow": false
+    },
+    {
+      "title": "A kind little moment",
+      "covers": 1,
+      "description": "Milo learns that a small act of kindness can make someone’s whole day feel brighter.",
+      "chapters": 3,
+      "coverBeforeTitle": true,
+      "overflow": false
+    },
+    {
+      "title": "The colour cloud",
+      "covers": 1,
+      "description": "A little cloud changes colour with every feeling and learns that all feelings are welcome.",
+      "chapters": 3,
+      "coverBeforeTitle": true,
+      "overflow": false
+    },
+    {
+      "title": "My brave little step",
+      "covers": 1,
+      "description": "Tara takes one small step toward something new, with a trusted hand beside her.",
+      "chapters": 3,
+      "coverBeforeTitle": true,
+      "overflow": false
+    },
+    {
+      "title": "Together we shine",
+      "covers": 1,
+      "description": "Three little stars discover that helping one another makes the night a little brighter.",
+      "chapters": 3,
+      "coverBeforeTitle": true,
+      "overflow": false
+    },
+    {
+      "title": "The moon’s goodnight",
+      "covers": 1,
+      "description": "Follow the moon on a gentle journey as the world settles down for sleep.",
+      "chapters": 3,
+      "coverBeforeTitle": true,
+      "overflow": false
+    },
+    {
+      "title": "Where did my giggle go?",
+      "covers": 1,
+      "description": "On a grumpy day, Nia learns to name her feelings and find comfort without rushing her smile.",
+      "chapters": 3,
+      "coverBeforeTitle": true,
+      "overflow": false
+    },
+    {
+      "title": "Pip and the puddle",
+      "covers": 1,
+      "description": "A rainy-day walk becomes a little adventure full of noticing, wondering, and safe splashing.",
+      "chapters": 3,
+      "coverBeforeTitle": true,
+      "overflow": false
+    },
+    {
+      "title": "A pocketful of wonders",
+      "covers": 1,
+      "description": "A slow walk helps Sam notice the small treasures that make an ordinary day extraordinary.",
+      "chapters": 3,
+      "coverBeforeTitle": true,
+      "overflow": false
+    },
+    {
+      "title": "The sleepy little fox",
+      "covers": 1,
+      "description": "Fox follows a cosy evening routine and learns that resting is part of every adventure.",
+      "chapters": 3,
+      "coverBeforeTitle": true,
+      "overflow": false
+    }
+  ],
+  "chapter2": true,
+  "mobileOverflow": false,
+  "tabletColumns": "186.656px 186.672px 186.672px",
+  "chapterTargets": true,
+  "svgOverflow": 0
+}

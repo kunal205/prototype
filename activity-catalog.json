@@ -1,0 +1,710 @@
+{
+  "activities": [
+    {
+      "id": "cognitive-1",
+      "category": "Cognitive",
+      "level": 1,
+      "title": "Colour hunt",
+      "materials": "Safe household objects",
+      "steps": [
+        "Find an object in a colour you choose.",
+        "Find another match and compare their shapes.",
+        "Sort your finds by colour and name each group."
+      ],
+      "seconds": 300,
+      "video": "r_kmNk3bcPQ",
+      "description": "Find an object in a colour you choose. A playful moment to explore cognitive development together."
+    },
+    {
+      "id": "cognitive-2",
+      "category": "Cognitive",
+      "level": 1,
+      "title": "Shape detectives",
+      "materials": "Large paper shapes",
+      "steps": [
+        "Choose a circle, square and triangle.",
+        "Look for those shapes around the room.",
+        "Put the shapes together to make a picture."
+      ],
+      "seconds": 300,
+      "video": "NDFqrbv6hkg",
+      "description": "Choose a circle, square and triangle. A playful moment to explore cognitive development together."
+    },
+    {
+      "id": "cognitive-3",
+      "category": "Cognitive",
+      "level": 1,
+      "title": "Match my pair",
+      "materials": "Three pairs of everyday objects",
+      "steps": [
+        "Lay out one object from each pair.",
+        "Invite your child to find each matching object.",
+        "Mix them and try a new arrangement."
+      ],
+      "seconds": 300,
+      "video": "r_kmNk3bcPQ",
+      "description": "Lay out one object from each pair. A playful moment to explore cognitive development together."
+    },
+    {
+      "id": "cognitive-4",
+      "category": "Cognitive",
+      "level": 2,
+      "title": "Pattern parade",
+      "materials": "Large coloured blocks",
+      "steps": [
+        "Make a red-blue-red-blue pattern.",
+        "Invite your child to add the next block.",
+        "Create a new pattern together."
+      ],
+      "seconds": 300,
+      "video": "NDFqrbv6hkg",
+      "description": "Make a red-blue-red-blue pattern. A playful moment to explore cognitive development together."
+    },
+    {
+      "id": "cognitive-5",
+      "category": "Cognitive",
+      "level": 2,
+      "title": "What is missing?",
+      "materials": "Four familiar objects and a cloth",
+      "steps": [
+        "Name the objects together.",
+        "Cover them and remove one.",
+        "Uncover the objects and guess what is missing."
+      ],
+      "seconds": 300,
+      "video": "r_kmNk3bcPQ",
+      "description": "Name the objects together. A playful moment to explore cognitive development together."
+    },
+    {
+      "id": "cognitive-6",
+      "category": "Cognitive",
+      "level": 2,
+      "title": "Sort it your way",
+      "materials": "Large blocks in different shapes",
+      "steps": [
+        "Explore how the blocks are alike.",
+        "Sort them by shape or colour.",
+        "Try sorting the same blocks a different way."
+      ],
+      "seconds": 300,
+      "video": "NDFqrbv6hkg",
+      "description": "Explore how the blocks are alike. A playful moment to explore cognitive development together."
+    },
+    {
+      "id": "cognitive-7",
+      "category": "Cognitive",
+      "level": 3,
+      "title": "Build a bridge",
+      "materials": "Large building blocks and a toy",
+      "steps": [
+        "Place two blocks apart like riverbanks.",
+        "Try ways to bridge the gap.",
+        "Test the bridge with a lightweight toy and adjust it."
+      ],
+      "seconds": 420,
+      "video": "r_kmNk3bcPQ",
+      "description": "Place two blocks apart like riverbanks. A playful moment to explore cognitive development together."
+    },
+    {
+      "id": "cognitive-8",
+      "category": "Cognitive",
+      "level": 3,
+      "title": "Picture sequence",
+      "materials": "Three drawings of a daily routine",
+      "steps": [
+        "Talk about what each picture shows.",
+        "Place the pictures in the order things happen.",
+        "Tell the little story from beginning to end."
+      ],
+      "seconds": 420,
+      "video": "NDFqrbv6hkg",
+      "description": "Talk about what each picture shows. A playful moment to explore cognitive development together."
+    },
+    {
+      "id": "cognitive-9",
+      "category": "Cognitive",
+      "level": 3,
+      "title": "Clue trail",
+      "materials": "Three familiar toys",
+      "steps": [
+        "Choose a toy and give a simple clue.",
+        "Let your child explore and find the match.",
+        "Swap roles and listen to your child\u2019s clues."
+      ],
+      "seconds": 420,
+      "video": "r_kmNk3bcPQ",
+      "description": "Choose a toy and give a simple clue. A playful moment to explore cognitive development together."
+    },
+    {
+      "id": "physical-1",
+      "category": "Physical",
+      "level": 1,
+      "title": "Animal moves",
+      "materials": "A clear soft play space",
+      "steps": [
+        "Stretch tall like a giraffe.",
+        "Walk slowly like a bear.",
+        "Choose an animal and invent its movement."
+      ],
+      "seconds": 300,
+      "video": "r_kmNk3bcPQ",
+      "description": "Stretch tall like a giraffe. A playful moment to explore physical development together."
+    },
+    {
+      "id": "physical-2",
+      "category": "Physical",
+      "level": 1,
+      "title": "Roll to me",
+      "materials": "A soft large ball",
+      "steps": [
+        "Sit facing each other.",
+        "Roll the ball gently between you.",
+        "Move a little farther apart and try again."
+      ],
+      "seconds": 300,
+      "video": "NDFqrbv6hkg",
+      "description": "Sit facing each other. A playful moment to explore physical development together."
+    },
+    {
+      "id": "physical-3",
+      "category": "Physical",
+      "level": 1,
+      "title": "Follow the footprints",
+      "materials": "Large paper footprints",
+      "steps": [
+        "Place footprints along a clear path.",
+        "Step slowly from one to the next.",
+        "Try a new path with gentle turns."
+      ],
+      "seconds": 300,
+      "video": "r_kmNk3bcPQ",
+      "description": "Place footprints along a clear path. A playful moment to explore physical development together."
+    },
+    {
+      "id": "physical-4",
+      "category": "Physical",
+      "level": 2,
+      "title": "Balance trail",
+      "materials": "Masking tape on a flat floor",
+      "steps": [
+        "Make a short tape line.",
+        "Walk along it with arms stretched out.",
+        "Try carrying a soft toy as you walk."
+      ],
+      "seconds": 300,
+      "video": "NDFqrbv6hkg",
+      "description": "Make a short tape line. A playful moment to explore physical development together."
+    },
+    {
+      "id": "physical-5",
+      "category": "Physical",
+      "level": 2,
+      "title": "Toss and land",
+      "materials": "Soft beanbags and a wide basket",
+      "steps": [
+        "Place the basket close by.",
+        "Toss a beanbag gently into it.",
+        "Adjust the distance to keep it comfortable."
+      ],
+      "seconds": 300,
+      "video": "r_kmNk3bcPQ",
+      "description": "Place the basket close by. A playful moment to explore physical development together."
+    },
+    {
+      "id": "physical-6",
+      "category": "Physical",
+      "level": 2,
+      "title": "Stretch like a tree",
+      "materials": "A clear play space",
+      "steps": [
+        "Plant your feet comfortably.",
+        "Raise your arms like growing branches.",
+        "Sway gently and come back to the middle."
+      ],
+      "seconds": 300,
+      "video": "NDFqrbv6hkg",
+      "description": "Plant your feet comfortably. A playful moment to explore physical development together."
+    },
+    {
+      "id": "physical-7",
+      "category": "Physical",
+      "level": 3,
+      "title": "Little obstacle path",
+      "materials": "Cushions and a clear floor",
+      "steps": [
+        "Arrange a low, stable cushion path.",
+        "Step around or over each cushion with support.",
+        "Let your child suggest the next route."
+      ],
+      "seconds": 420,
+      "video": "r_kmNk3bcPQ",
+      "description": "Arrange a low, stable cushion path. A playful moment to explore physical development together."
+    },
+    {
+      "id": "physical-8",
+      "category": "Physical",
+      "level": 3,
+      "title": "Move and freeze",
+      "materials": "A clear play space",
+      "steps": [
+        "Choose a favourite movement.",
+        "Say freeze and balance in place.",
+        "Take turns calling move and freeze."
+      ],
+      "seconds": 420,
+      "video": "NDFqrbv6hkg",
+      "description": "Choose a favourite movement. A playful moment to explore physical development together."
+    },
+    {
+      "id": "physical-9",
+      "category": "Physical",
+      "level": 3,
+      "title": "Ribbon dance",
+      "materials": "A short wide fabric strip",
+      "steps": [
+        "Wave the fabric slowly from side to side.",
+        "Draw big circles in the air.",
+        "Make up a short dance together."
+      ],
+      "seconds": 420,
+      "video": "r_kmNk3bcPQ",
+      "description": "Wave the fabric slowly from side to side. A playful moment to explore physical development together."
+    },
+    {
+      "id": "emotional-1",
+      "category": "Emotional",
+      "level": 1,
+      "title": "Feeling faces",
+      "materials": "A mirror",
+      "steps": [
+        "Make a happy face together.",
+        "Try a sad or surprised face.",
+        "Name a time you felt that way."
+      ],
+      "seconds": 300,
+      "video": "r_kmNk3bcPQ",
+      "description": "Make a happy face together. A playful moment to explore emotional development together."
+    },
+    {
+      "id": "emotional-2",
+      "category": "Emotional",
+      "level": 1,
+      "title": "My calm breath",
+      "materials": "A quiet place",
+      "steps": [
+        "Sit comfortably together.",
+        "Smell an imaginary flower slowly.",
+        "Blow an imaginary candle gently and repeat."
+      ],
+      "seconds": 300,
+      "video": "NDFqrbv6hkg",
+      "description": "Sit comfortably together. A playful moment to explore emotional development together."
+    },
+    {
+      "id": "emotional-3",
+      "category": "Emotional",
+      "level": 1,
+      "title": "Today feels like",
+      "materials": "Paper and crayons",
+      "steps": [
+        "Choose a colour for your feeling.",
+        "Draw marks that show that feeling.",
+        "Listen as your child tells you about the picture."
+      ],
+      "seconds": 300,
+      "video": "r_kmNk3bcPQ",
+      "description": "Choose a colour for your feeling. A playful moment to explore emotional development together."
+    },
+    {
+      "id": "emotional-4",
+      "category": "Emotional",
+      "level": 2,
+      "title": "Feelings weather",
+      "materials": "Paper and crayons",
+      "steps": [
+        "Imagine feelings as sunny, cloudy or rainy.",
+        "Draw today\u2019s feelings weather.",
+        "Talk about what might help on a cloudy day."
+      ],
+      "seconds": 300,
+      "video": "NDFqrbv6hkg",
+      "description": "Imagine feelings as sunny, cloudy or rainy. A playful moment to explore emotional development together."
+    },
+    {
+      "id": "emotional-5",
+      "category": "Emotional",
+      "level": 2,
+      "title": "A cosy corner",
+      "materials": "A cushion and favourite toy",
+      "steps": [
+        "Find a comfortable quiet spot.",
+        "Choose something that feels comforting.",
+        "Practise asking for a little quiet time."
+      ],
+      "seconds": 300,
+      "video": "r_kmNk3bcPQ",
+      "description": "Find a comfortable quiet spot. A playful moment to explore emotional development together."
+    },
+    {
+      "id": "emotional-6",
+      "category": "Emotional",
+      "level": 2,
+      "title": "Name that feeling",
+      "materials": "A favourite toy",
+      "steps": [
+        "Act out a toy losing something.",
+        "Ask how the toy might feel.",
+        "Find a kind way to help the toy."
+      ],
+      "seconds": 300,
+      "video": "NDFqrbv6hkg",
+      "description": "Act out a toy losing something. A playful moment to explore emotional development together."
+    },
+    {
+      "id": "emotional-7",
+      "category": "Emotional",
+      "level": 3,
+      "title": "Brave little try",
+      "materials": "Paper and crayons",
+      "steps": [
+        "Talk about something new to try.",
+        "Draw one small first step.",
+        "Celebrate the effort of trying that step."
+      ],
+      "seconds": 420,
+      "video": "r_kmNk3bcPQ",
+      "description": "Talk about something new to try. A playful moment to explore emotional development together."
+    },
+    {
+      "id": "emotional-8",
+      "category": "Emotional",
+      "level": 3,
+      "title": "My helpful words",
+      "materials": "Two soft toys",
+      "steps": [
+        "Let one toy feel frustrated.",
+        "Practise words such as I need help.",
+        "Use the words in a gentle pretend conversation."
+      ],
+      "seconds": 420,
+      "video": "NDFqrbv6hkg",
+      "description": "Let one toy feel frustrated. A playful moment to explore emotional development together."
+    },
+    {
+      "id": "emotional-9",
+      "category": "Emotional",
+      "level": 3,
+      "title": "Feelings journey",
+      "materials": "Paper and crayons",
+      "steps": [
+        "Recall a small moment from today.",
+        "Draw how the feeling changed.",
+        "Talk about what helped along the way."
+      ],
+      "seconds": 420,
+      "video": "r_kmNk3bcPQ",
+      "description": "Recall a small moment from today. A playful moment to explore emotional development together."
+    },
+    {
+      "id": "social-1",
+      "category": "Social",
+      "level": 1,
+      "title": "My turn, your turn",
+      "materials": "A soft ball",
+      "steps": [
+        "Say my turn before rolling the ball.",
+        "Invite your child to say your turn.",
+        "Keep taking turns at a comfortable pace."
+      ],
+      "seconds": 300,
+      "video": "r_kmNk3bcPQ",
+      "description": "Say my turn before rolling the ball. A playful moment to explore social development together."
+    },
+    {
+      "id": "social-2",
+      "category": "Social",
+      "level": 1,
+      "title": "Hello little friend",
+      "materials": "A favourite toy",
+      "steps": [
+        "Say hello to the toy by name.",
+        "Ask the toy a friendly question.",
+        "Let your child answer and ask a question too."
+      ],
+      "seconds": 300,
+      "video": "NDFqrbv6hkg",
+      "description": "Say hello to the toy by name. A playful moment to explore social development together."
+    },
+    {
+      "id": "social-3",
+      "category": "Social",
+      "level": 1,
+      "title": "Build together",
+      "materials": "Large building blocks",
+      "steps": [
+        "Choose something to build together.",
+        "Add one block each in turn.",
+        "Give your creation a shared name."
+      ],
+      "seconds": 300,
+      "video": "r_kmNk3bcPQ",
+      "description": "Choose something to build together. A playful moment to explore social development together."
+    },
+    {
+      "id": "social-4",
+      "category": "Social",
+      "level": 2,
+      "title": "Kindness delivery",
+      "materials": "Paper and crayons",
+      "steps": [
+        "Think of someone to thank.",
+        "Draw a little picture for them.",
+        "Practise a kind sentence to go with it."
+      ],
+      "seconds": 300,
+      "video": "NDFqrbv6hkg",
+      "description": "Think of someone to thank. A playful moment to explore social development together."
+    },
+    {
+      "id": "social-5",
+      "category": "Social",
+      "level": 2,
+      "title": "Listen and draw",
+      "materials": "Paper and crayons",
+      "steps": [
+        "Describe a simple shape.",
+        "Listen as your child draws it.",
+        "Swap roles and follow their description."
+      ],
+      "seconds": 300,
+      "video": "r_kmNk3bcPQ",
+      "description": "Describe a simple shape. A playful moment to explore social development together."
+    },
+    {
+      "id": "social-6",
+      "category": "Social",
+      "level": 2,
+      "title": "Our shared picnic",
+      "materials": "Toy cups and plates",
+      "steps": [
+        "Set a pretend place for each toy.",
+        "Share the pretend food fairly.",
+        "Ask each toy what it would like."
+      ],
+      "seconds": 300,
+      "video": "NDFqrbv6hkg",
+      "description": "Set a pretend place for each toy. A playful moment to explore social development together."
+    },
+    {
+      "id": "social-7",
+      "category": "Social",
+      "level": 3,
+      "title": "Solve it together",
+      "materials": "Two toys and one toy car",
+      "steps": [
+        "Pretend both toys want the car.",
+        "Think of ways they could take turns.",
+        "Try one idea and talk about how it feels."
+      ],
+      "seconds": 420,
+      "video": "r_kmNk3bcPQ",
+      "description": "Pretend both toys want the car. A playful moment to explore social development together."
+    },
+    {
+      "id": "social-8",
+      "category": "Social",
+      "level": 3,
+      "title": "Team treasure map",
+      "materials": "Paper and crayons",
+      "steps": [
+        "Draw a map to a familiar toy.",
+        "Choose one job for each person.",
+        "Follow the map together and celebrate teamwork."
+      ],
+      "seconds": 420,
+      "video": "NDFqrbv6hkg",
+      "description": "Draw a map to a familiar toy. A playful moment to explore social development together."
+    },
+    {
+      "id": "social-9",
+      "category": "Social",
+      "level": 3,
+      "title": "Little helpers",
+      "materials": "A few clean play items",
+      "steps": [
+        "Choose a small task together.",
+        "Let each person pick one part.",
+        "Finish together and thank each other."
+      ],
+      "seconds": 420,
+      "video": "r_kmNk3bcPQ",
+      "description": "Choose a small task together. A playful moment to explore social development together."
+    },
+    {
+      "id": "creative-1",
+      "category": "Creative",
+      "level": 1,
+      "title": "Scribble garden",
+      "materials": "Paper and washable crayons",
+      "steps": [
+        "Make a few playful marks.",
+        "Turn one mark into a leaf or flower.",
+        "Add an imaginary creature to your garden."
+      ],
+      "seconds": 300,
+      "video": "r_kmNk3bcPQ",
+      "description": "Make a few playful marks. A playful moment to explore creative development together."
+    },
+    {
+      "id": "creative-2",
+      "category": "Creative",
+      "level": 1,
+      "title": "Cloud stories",
+      "materials": "Paper and crayons",
+      "steps": [
+        "Draw a soft cloud shape.",
+        "Imagine what it could become.",
+        "Tell a little story about your cloud."
+      ],
+      "seconds": 300,
+      "video": "NDFqrbv6hkg",
+      "description": "Draw a soft cloud shape. A playful moment to explore creative development together."
+    },
+    {
+      "id": "creative-3",
+      "category": "Creative",
+      "level": 1,
+      "title": "Sound explorers",
+      "materials": "Hands and a clear space",
+      "steps": [
+        "Make a quiet clap or tap.",
+        "Copy each other\u2019s sound.",
+        "Combine your sounds into a rhythm."
+      ],
+      "seconds": 300,
+      "video": "r_kmNk3bcPQ",
+      "description": "Make a quiet clap or tap. A playful moment to explore creative development together."
+    },
+    {
+      "id": "creative-4",
+      "category": "Creative",
+      "level": 2,
+      "title": "Paper creatures",
+      "materials": "Large paper pieces and a glue stick",
+      "steps": [
+        "Arrange paper into a creature.",
+        "Choose its eyes, wings or feet.",
+        "Name it and describe where it lives."
+      ],
+      "seconds": 300,
+      "video": "NDFqrbv6hkg",
+      "description": "Arrange paper into a creature. A playful moment to explore creative development together."
+    },
+    {
+      "id": "creative-5",
+      "category": "Creative",
+      "level": 2,
+      "title": "Paint a rhythm",
+      "materials": "Paper and washable crayons",
+      "steps": [
+        "Tap a gentle rhythm together.",
+        "Draw lines that follow the rhythm.",
+        "Change the rhythm and add new marks."
+      ],
+      "seconds": 300,
+      "video": "r_kmNk3bcPQ",
+      "description": "Tap a gentle rhythm together. A playful moment to explore creative development together."
+    },
+    {
+      "id": "creative-6",
+      "category": "Creative",
+      "level": 2,
+      "title": "My pretend shop",
+      "materials": "Safe everyday play objects",
+      "steps": [
+        "Arrange objects in a pretend shop.",
+        "Invent names for what you sell.",
+        "Take turns being shopkeeper and visitor."
+      ],
+      "seconds": 300,
+      "video": "NDFqrbv6hkg",
+      "description": "Arrange objects in a pretend shop. A playful moment to explore creative development together."
+    },
+    {
+      "id": "creative-7",
+      "category": "Creative",
+      "level": 3,
+      "title": "Invent a vehicle",
+      "materials": "Large blocks",
+      "steps": [
+        "Imagine a vehicle for a special journey.",
+        "Build it with blocks.",
+        "Explain its special features through pretend play."
+      ],
+      "seconds": 420,
+      "video": "r_kmNk3bcPQ",
+      "description": "Imagine a vehicle for a special journey. A playful moment to explore creative development together."
+    },
+    {
+      "id": "creative-8",
+      "category": "Creative",
+      "level": 3,
+      "title": "A story in three pictures",
+      "materials": "Paper and crayons",
+      "steps": [
+        "Draw a character and a place.",
+        "Draw something surprising that happens.",
+        "Draw an ending and tell the whole story."
+      ],
+      "seconds": 420,
+      "video": "NDFqrbv6hkg",
+      "description": "Draw a character and a place. A playful moment to explore creative development together."
+    },
+    {
+      "id": "creative-9",
+      "category": "Creative",
+      "level": 3,
+      "title": "Our little show",
+      "materials": "Toys and a small clear stage",
+      "steps": [
+        "Choose characters for a short show.",
+        "Practise a beginning, middle and ending.",
+        "Perform together and celebrate every idea."
+      ],
+      "seconds": 420,
+      "video": "r_kmNk3bcPQ",
+      "description": "Choose characters for a short show. A playful moment to explore creative development together."
+    }
+  ],
+  "kits": [
+    {
+      "id": "discovery",
+      "title": "Little discovery kit",
+      "price": 499,
+      "description": "Large sorting shapes, colour cards and playful discovery prompts."
+    },
+    {
+      "id": "creative",
+      "title": "Little makers kit",
+      "price": 649,
+      "description": "Paper shapes, washable crayons and imaginative making prompts."
+    },
+    {
+      "id": "movement",
+      "title": "Move & play kit",
+      "price": 799,
+      "description": "A soft ball, floor markers and movement activity cards."
+    }
+  ],
+  "videos": [
+    "r_kmNk3bcPQ",
+    "NDFqrbv6hkg"
+  ],
+  "satisfaction": [
+    "Very Satisfied",
+    "Satisfied",
+    "Neutral",
+    "Unsatisfied",
+    "Very Unsatisfied"
+  ]
+}

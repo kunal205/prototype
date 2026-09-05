@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "screens": 82,
+  "removedPages": [
+    "launch",
+    "welcome",
+    "recovery",
+    "child-setup",
+    "home-offline",
+    "categories",
+    "story-unavailable",
+    "story-empty",
+    "post",
+    "message",
+    "notification",
+    "help-detail",
+    "data-requests",
+    "data-form",
+    "data-received",
+    "review",
+    "request-received"
+  ],
+  "brokenLinks": [],
+  "errors": [],
+  "overflows": [],
+  "checked": [
+    "Automatic per-image alternate thumbnails without a reveal tap",
+    "Selecting a perspective stays on the same main image",
+    "Real touch swipe switches the main image and its own stack",
+    "No previous-image stack on the next image",
+    "No perspective stack on the chapter-end panel",
+    "Next chapter opens with its own image views",
+    "Match my pair retained",
+    "Single Shop payment page",
+    "Notification/profile icons only on Home",
+    "Login and Apple sign-in directly to Home",
+    "Phone, dark, tablet and reduced motion"
+  ]
+}

@@ -1,0 +1,3073 @@
+[
+  {
+    "id": "signin",
+    "group": "A",
+    "title": "Welcome back",
+    "sub": "Your next little adventure is waiting.",
+    "items": [
+      {
+        "type": "field",
+        "title": "Email address",
+        "sub": "you@example.com",
+        "input": "email"
+      },
+      {
+        "type": "field",
+        "title": "Password",
+        "sub": "Enter your password",
+        "input": "password"
+      },
+      {
+        "type": "row",
+        "title": "Continue with Google",
+        "to": "@auth-google",
+        "sub": ""
+      },
+      {
+        "type": "row",
+        "title": "Continue with Apple",
+        "to": "@auth-apple",
+        "sub": ""
+      },
+      {
+        "type": "note",
+        "title": "Demo sign-in \u00b7 No account is created or connected."
+      }
+    ],
+    "actions": [
+      {
+        "label": "Sign in",
+        "to": "home",
+        "secondary": false
+      },
+      {
+        "label": "Create an account",
+        "to": "signup",
+        "secondary": true
+      }
+    ],
+    "kind": "form",
+    "tabs": false
+  },
+  {
+    "id": "signup",
+    "group": "A",
+    "title": "Grow together",
+    "sub": "Create your parent account.",
+    "items": [
+      {
+        "type": "field",
+        "title": "Your name",
+        "sub": "Parent or caregiver",
+        "input": "text"
+      },
+      {
+        "type": "field",
+        "title": "Email address",
+        "sub": "you@example.com",
+        "input": "email"
+      },
+      {
+        "type": "field",
+        "title": "Password",
+        "sub": "Choose a password",
+        "input": "password"
+      },
+      {
+        "type": "row",
+        "title": "Continue with Google",
+        "to": "@auth-google",
+        "sub": ""
+      },
+      {
+        "type": "row",
+        "title": "Continue with Apple",
+        "to": "@auth-apple",
+        "sub": ""
+      },
+      {
+        "type": "note",
+        "title": "Demo sign-in \u00b7 No account is created or connected."
+      }
+    ],
+    "actions": [
+      {
+        "label": "Create account",
+        "to": "home",
+        "secondary": false
+      },
+      {
+        "label": "Already have an account?",
+        "to": "signin",
+        "secondary": true
+      }
+    ],
+    "kind": "form",
+    "tabs": false
+  },
+  {
+    "id": "verification",
+    "group": "A",
+    "title": "Check your inbox",
+    "sub": "Enter the code sent to your email.",
+    "items": [
+      {
+        "type": "field",
+        "title": "Verification code",
+        "sub": "6-digit code",
+        "input": "text"
+      },
+      {
+        "type": "row",
+        "title": "Send a new code",
+        "sub": "",
+        "to": "verification"
+      },
+      {
+        "type": "note",
+        "title": "Check your spam folder if the email has not arrived."
+      }
+    ],
+    "actions": [
+      {
+        "label": "Verify email",
+        "to": "home",
+        "secondary": false
+      }
+    ],
+    "kind": "form",
+    "tabs": false
+  },
+  {
+    "id": "reset",
+    "group": "A",
+    "title": "Choose a new password",
+    "sub": "Use a password you haven\u2019t used before.",
+    "items": [
+      {
+        "type": "field",
+        "title": "New password",
+        "sub": "New password",
+        "input": "password"
+      },
+      {
+        "type": "field",
+        "title": "Confirm password",
+        "sub": "Repeat password",
+        "input": "password"
+      }
+    ],
+    "actions": [
+      {
+        "label": "Save password",
+        "to": "signin",
+        "secondary": false
+      }
+    ],
+    "kind": "form",
+    "tabs": false
+  },
+  {
+    "id": "session-expired",
+    "group": "A",
+    "title": "Please sign in again",
+    "sub": "Your session has ended.",
+    "items": [
+      {
+        "type": "note",
+        "title": "Your saved progress is still here."
+      }
+    ],
+    "actions": [
+      {
+        "label": "Sign in",
+        "to": "signin",
+        "secondary": false
+      }
+    ],
+    "kind": "standard",
+    "tabs": false
+  },
+  {
+    "id": "children",
+    "group": "B",
+    "title": "Your little learners",
+    "sub": "Choose a child to personalise the day.",
+    "items": [
+      {
+        "type": "card",
+        "title": "Maya \u00b7 age 4",
+        "sub": "\u2713 Selected",
+        "to": "home",
+        "tag": "CURRENT CHILD"
+      },
+      {
+        "type": "card",
+        "title": "Leo \u00b7 age 3",
+        "sub": "Switch child",
+        "to": "home",
+        "tag": "CHILD PROFILE"
+      },
+      {
+        "type": "row",
+        "title": "Add a child",
+        "sub": "",
+        "to": "add-child"
+      },
+      {
+        "type": "row",
+        "title": "Edit Maya\u2019s profile",
+        "sub": "",
+        "to": "edit-child"
+      }
+    ],
+    "actions": [
+      {
+        "label": "Done",
+        "to": "home",
+        "secondary": false
+      }
+    ],
+    "kind": "sheet",
+    "tabs": false
+  },
+  {
+    "id": "add-child",
+    "group": "B",
+    "title": "Add a little learner",
+    "sub": "Each child has their own progress.",
+    "items": [
+      {
+        "type": "field",
+        "title": "First name",
+        "sub": "First name",
+        "input": "text"
+      },
+      {
+        "type": "field",
+        "title": "Date of birth",
+        "sub": "",
+        "input": "date"
+      }
+    ],
+    "actions": [
+      {
+        "label": "Add child",
+        "to": "children",
+        "secondary": false
+      }
+    ],
+    "kind": "form",
+    "tabs": false
+  },
+  {
+    "id": "edit-child",
+    "group": "B",
+    "title": "Maya\u2019s profile",
+    "sub": "Update your child\u2019s details.",
+    "items": [
+      {
+        "type": "field",
+        "title": "First name",
+        "sub": "Maya",
+        "input": "text"
+      },
+      {
+        "type": "field",
+        "title": "Date of birth",
+        "sub": "",
+        "input": "date"
+      },
+      {
+        "type": "row",
+        "title": "Remove Maya\u2019s profile",
+        "sub": "",
+        "to": "remove-child"
+      }
+    ],
+    "actions": [
+      {
+        "label": "Save changes",
+        "to": "children",
+        "secondary": false
+      }
+    ],
+    "kind": "form",
+    "tabs": false
+  },
+  {
+    "id": "remove-child",
+    "group": "B",
+    "title": "Remove Maya\u2019s profile?",
+    "sub": "This action applies to Maya.",
+    "items": [
+      {
+        "type": "note",
+        "title": "Review the effect on saved progress before confirming. Final retention wording requires approval."
+      }
+    ],
+    "actions": [
+      {
+        "label": "Keep Maya\u2019s profile",
+        "to": "children",
+        "secondary": false
+      },
+      {
+        "label": "Remove Maya\u2019s profile",
+        "to": "children",
+        "secondary": true
+      }
+    ],
+    "kind": "sheet",
+    "tabs": false
+  },
+  {
+    "id": "home",
+    "group": "C",
+    "title": "A little play. A lot of possibility.",
+    "sub": "Hello, Maya\u2019s grown-up.",
+    "items": [
+      {
+        "type": "row",
+        "title": "Maya \u00b7 age 4   \u2304",
+        "sub": "",
+        "to": "children"
+      },
+      {
+        "type": "bento",
+        "title": "Every way to grow",
+        "areas": [
+          {
+            "name": "Cognitive",
+            "sub": "Think, notice & discover",
+            "icon": "brain"
+          },
+          {
+            "name": "Physical",
+            "sub": "Move, balance & explore",
+            "icon": "move"
+          },
+          {
+            "name": "Emotional",
+            "sub": "Understand little feelings",
+            "icon": "heart"
+          },
+          {
+            "name": "Social",
+            "sub": "Connect, share & belong",
+            "icon": "people"
+          },
+          {
+            "name": "Creative",
+            "sub": "Imagine, make & express",
+            "icon": "spark"
+          }
+        ]
+      },
+      {
+        "type": "youtube",
+        "title": "Watch together",
+        "videos": [
+          {
+            "title": "Watch together \u00b7 Video 1",
+            "url": "https://www.youtube.com/watch?v=r_kmNk3bcPQ"
+          },
+          {
+            "title": "Watch together \u00b7 Video 2",
+            "url": "https://www.youtube.com/watch?v=NDFqrbv6hkg"
+          }
+        ]
+      },
+      {
+        "type": "card",
+        "title": "Your garden is growing",
+        "sub": "See every little step forward.",
+        "to": "progress",
+        "tag": "LEVEL GARDEN"
+      }
+    ],
+    "actions": [],
+    "kind": "home",
+    "tabs": true
+  },
+  {
+    "id": "levels",
+    "group": "D",
+    "title": "One small step at a time",
+    "sub": "Thinking & problem solving",
+    "items": [
+      {
+        "type": "card",
+        "title": "Level 1",
+        "sub": "3 activities \u00b7 Available to try",
+        "to": "@level-1",
+        "tag": "EXPLORE AT YOUR PACE"
+      },
+      {
+        "type": "card",
+        "title": "Level 2",
+        "sub": "3 activities \u00b7 Available to try",
+        "to": "@level-2",
+        "tag": "EXPLORE AT YOUR PACE"
+      },
+      {
+        "type": "card",
+        "title": "Level 3",
+        "sub": "3 activities \u00b7 Available to try",
+        "to": "@level-3",
+        "tag": "EXPLORE AT YOUR PACE"
+      }
+    ],
+    "actions": [],
+    "kind": "standard",
+    "tabs": true
+  },
+  {
+    "id": "activities",
+    "group": "D",
+    "title": "Today\u2019s activities",
+    "sub": "A few simple ways to connect.",
+    "items": [
+      {
+        "type": "card",
+        "title": "Colour hunt",
+        "sub": "Find an object in a colour you choose. A playful moment to explore cognitive development together.",
+        "to": "@activity-cognitive-1",
+        "tag": "5 MIN"
+      },
+      {
+        "type": "card",
+        "title": "Shape detectives",
+        "sub": "Choose a circle, square and triangle. A playful moment to explore cognitive development together.",
+        "to": "@activity-cognitive-2",
+        "tag": "5 MIN"
+      },
+      {
+        "type": "card",
+        "title": "Match my pair",
+        "sub": "Lay out one object from each pair. A playful moment to explore cognitive development together.",
+        "to": "@activity-cognitive-3",
+        "tag": "5 MIN"
+      }
+    ],
+    "actions": [],
+    "kind": "standard",
+    "tabs": true
+  },
+  {
+    "id": "activity",
+    "group": "D",
+    "title": "A world of colour",
+    "sub": "Notice the colours hiding in plain sight.",
+    "items": [
+      {
+        "type": "art",
+        "title": "activity"
+      },
+      {
+        "type": "note",
+        "title": "Find an object in a colour you choose. A playful moment to explore cognitive development together."
+      },
+      {
+        "type": "card",
+        "title": "What you\u2019ll need",
+        "sub": "Safe household objects",
+        "to": "",
+        "tag": ""
+      },
+      {
+        "type": "video",
+        "title": "Activity video",
+        "video": "r_kmNk3bcPQ"
+      },
+      {
+        "type": "mode",
+        "title": "Choose your mode"
+      }
+    ],
+    "actions": [
+      {
+        "label": "Start activity",
+        "to": "@start",
+        "secondary": false
+      }
+    ],
+    "kind": "detail",
+    "tabs": false
+  },
+  {
+    "id": "steps",
+    "group": "D",
+    "title": "Find an object in a colour you choose.",
+    "sub": "Step 1 of 3 \u00b7 Colour hunt",
+    "items": [
+      {
+        "type": "art",
+        "title": "activity"
+      },
+      {
+        "type": "note",
+        "title": "Find an object in a colour you choose."
+      }
+    ],
+    "actions": [
+      {
+        "label": "Next step",
+        "to": "step-2",
+        "secondary": false
+      }
+    ],
+    "kind": "guided",
+    "tabs": false
+  },
+  {
+    "id": "step-2",
+    "group": "D",
+    "title": "Find another match and compare their shapes.",
+    "sub": "Step 2 of 3 \u00b7 Colour hunt",
+    "items": [
+      {
+        "type": "art",
+        "title": "activity"
+      },
+      {
+        "type": "note",
+        "title": "Find another match and compare their shapes."
+      }
+    ],
+    "actions": [
+      {
+        "label": "Next step",
+        "to": "step-3",
+        "secondary": false
+      }
+    ],
+    "kind": "guided",
+    "tabs": false
+  },
+  {
+    "id": "step-3",
+    "group": "D",
+    "title": "Sort your finds by colour and name each group.",
+    "sub": "Step 3 of 3 \u00b7 Colour hunt",
+    "items": [
+      {
+        "type": "art",
+        "title": "activity"
+      },
+      {
+        "type": "note",
+        "title": "Sort your finds by colour and name each group."
+      }
+    ],
+    "actions": [
+      {
+        "label": "Complete activity",
+        "to": "@complete",
+        "secondary": false
+      }
+    ],
+    "kind": "guided",
+    "tabs": false
+  },
+  {
+    "id": "feedback",
+    "group": "D",
+    "title": "How was this activity?",
+    "sub": "Overall, how satisfied were you with the activity?",
+    "items": [
+      {
+        "type": "satisfaction",
+        "title": "Satisfaction",
+        "options": [
+          "Very Satisfied",
+          "Satisfied",
+          "Neutral",
+          "Unsatisfied",
+          "Very Unsatisfied"
+        ]
+      },
+      {
+        "type": "field",
+        "title": "Anything you\u2019d like to remember?",
+        "sub": "Optional comment",
+        "input": "textarea"
+      }
+    ],
+    "actions": [
+      {
+        "label": "Save feedback",
+        "to": "@feedback-save",
+        "secondary": false
+      },
+      {
+        "label": "Skip feedback",
+        "to": "@feedback-skip",
+        "secondary": true
+      }
+    ],
+    "kind": "feedback",
+    "tabs": false
+  },
+  {
+    "id": "celebration",
+    "group": "D",
+    "title": "A little growth, together.",
+    "sub": "Every moment you share makes a difference.",
+    "items": [
+      {
+        "type": "growth-plant",
+        "title": "Your growing garden"
+      },
+      {
+        "type": "note",
+        "title": "One completed activity adds one growth stage."
+      }
+    ],
+    "actions": [
+      {
+        "label": "Continue to feedback",
+        "to": "feedback",
+        "secondary": false
+      }
+    ],
+    "kind": "celebration",
+    "tabs": false
+  },
+  {
+    "id": "progress",
+    "group": "D",
+    "title": "Look how far you\u2019ve grown",
+    "sub": "Maya\u2019s learning garden",
+    "items": [
+      {
+        "type": "growth-chart",
+        "title": "Your activity growth"
+      },
+      {
+        "type": "note",
+        "title": "More activities from this level"
+      },
+      {
+        "type": "card",
+        "title": "Colour hunt",
+        "sub": "Find an object in a colour you choose. A playful moment to explore cognitive development together.",
+        "to": "@activity-cognitive-1",
+        "tag": ""
+      },
+      {
+        "type": "card",
+        "title": "Shape detectives",
+        "sub": "Choose a circle, square and triangle. A playful moment to explore cognitive development together.",
+        "to": "@activity-cognitive-2",
+        "tag": ""
+      },
+      {
+        "type": "card",
+        "title": "Match my pair",
+        "sub": "Lay out one object from each pair. A playful moment to explore cognitive development together.",
+        "to": "@activity-cognitive-3",
+        "tag": ""
+      }
+    ],
+    "actions": [],
+    "kind": "progress",
+    "tabs": true
+  },
+  {
+    "id": "history",
+    "group": "D",
+    "title": "Your little milestones",
+    "sub": "Every activity has a story.",
+    "items": [
+      {
+        "type": "note",
+        "title": "Completed activities will appear here."
+      }
+    ],
+    "actions": [],
+    "kind": "standard",
+    "tabs": true
+  },
+  {
+    "id": "history-detail",
+    "group": "D",
+    "title": "Colour hunt",
+    "sub": "Activity history",
+    "items": [
+      {
+        "type": "note",
+        "title": "Your saved activity and feedback will appear here."
+      }
+    ],
+    "actions": [
+      {
+        "label": "Back to progress",
+        "to": "progress",
+        "secondary": false
+      }
+    ],
+    "kind": "standard",
+    "tabs": false
+  },
+  {
+    "id": "stories",
+    "group": "E",
+    "title": "A story to share",
+    "sub": "A quiet moment. A whole new world.",
+    "items": [
+      {
+        "type": "story-tools",
+        "title": "Your story shelf"
+      },
+      {
+        "type": "story-categories",
+        "title": "Categories",
+        "categories": [
+          "All",
+          "Nature",
+          "Kindness",
+          "Feelings",
+          "Adventure",
+          "Bedtime"
+        ]
+      },
+      {
+        "type": "book-grid",
+        "title": "Our story shelf",
+        "books": [
+          {
+            "id": "seed",
+            "title": "The little seed",
+            "category": "Nature",
+            "description": "A tiny seed discovers that growing takes patience, care, and its own special time.",
+            "chapters": [
+              "A quiet beginning",
+              "A little rain",
+              "Hello, little leaf"
+            ],
+            "copy": [
+              "A little seed rested in the soft earth. \u201cWhen will I grow?\u201d it wondered.",
+              "Rain tapped gently on the ground. The seed drank, rested, and reached one tiny root into the earth.",
+              "One morning, a green leaf reached toward the sun. The seed had been growing all along."
+            ],
+            "colors": [
+              "#DDE7CB",
+              "#526B48",
+              "#F6F0D7"
+            ],
+            "motif": "seed"
+          },
+          {
+            "id": "kind",
+            "title": "A kind little moment",
+            "category": "Kindness",
+            "description": "Milo learns that a small act of kindness can make someone\u2019s whole day feel brighter.",
+            "chapters": [
+              "A lonely bench",
+              "Room for one more",
+              "Kindness comes around"
+            ],
+            "copy": [
+              "Milo saw someone sitting alone. He slowed down and gave a little wave.",
+              "\u201cThere is room beside me,\u201d said Milo. Soon two quiet smiles became a happy conversation.",
+              "The next day, Milo felt shy. His new friend waved him over. A little kindness had found its way back."
+            ],
+            "colors": [
+              "#F3DBD7",
+              "#AC675D",
+              "#FAEFE5"
+            ],
+            "motif": "heart"
+          },
+          {
+            "id": "cloud",
+            "title": "The colour cloud",
+            "category": "Feelings",
+            "description": "A little cloud changes colour with every feeling and learns that all feelings are welcome.",
+            "chapters": [
+              "A blue morning",
+              "A rumble of red",
+              "All my colours"
+            ],
+            "copy": [
+              "The little cloud woke up blue. It told the sky, \u201cI feel a little sad today.\u201d",
+              "Later, a loud wind made the cloud feel red and cross. It paused for one slow breath, then another.",
+              "The cloud discovered it could feel many things. Every colour belonged in its sky."
+            ],
+            "colors": [
+              "#DFDBF1",
+              "#75618E",
+              "#F8F1E0"
+            ],
+            "motif": "cloud"
+          },
+          {
+            "id": "brave",
+            "title": "My brave little step",
+            "category": "Adventure",
+            "description": "Tara takes one small step toward something new, with a trusted hand beside her.",
+            "chapters": [
+              "Something new",
+              "One small step",
+              "Look what I tried"
+            ],
+            "copy": [
+              "The stepping stones looked a little far apart. Tara held her grown-up\u2019s hand.",
+              "She tried the nearest stone first. Then she paused, looked, and tried the next one.",
+              "\u201cI tried something new,\u201d Tara said. Being brave could happen one little step at a time."
+            ],
+            "colors": [
+              "#EAD8B8",
+              "#917044",
+              "#F7EEE0"
+            ],
+            "motif": "path"
+          },
+          {
+            "id": "shine",
+            "title": "Together we shine",
+            "category": "Kindness",
+            "description": "Three little stars discover that helping one another makes the night a little brighter.",
+            "chapters": [
+              "Three little stars",
+              "A helping sparkle",
+              "Our bright night"
+            ],
+            "copy": [
+              "Three little stars wanted to light the path below. One was bright, one was small, and one was shy.",
+              "They moved closer and each shared a little sparkle. No one had to shine alone.",
+              "Together, they made a gentle light. There was a place for every star in their sky."
+            ],
+            "colors": [
+              "#CCDCD9",
+              "#487C76",
+              "#FFF1C9"
+            ],
+            "motif": "stars"
+          },
+          {
+            "id": "moon",
+            "title": "The moon\u2019s goodnight",
+            "category": "Bedtime",
+            "description": "Follow the moon on a gentle journey as the world settles down for sleep.",
+            "chapters": [
+              "The evening hush",
+              "Goodnight, little world",
+              "Time to rest"
+            ],
+            "copy": [
+              "The moon peeked over the hill. All around, the busy day began to slow.",
+              "\u201cGoodnight, trees. Goodnight, birds,\u201d whispered the moon. The world grew softer and quieter.",
+              "One last window glowed. A little child closed their eyes, and the moon kept gentle watch."
+            ],
+            "colors": [
+              "#D3D8EC",
+              "#596687",
+              "#FFF0C5"
+            ],
+            "motif": "moon"
+          },
+          {
+            "id": "giggle",
+            "title": "Where did my giggle go?",
+            "category": "Feelings",
+            "description": "On a grumpy day, Nia learns to name her feelings and find comfort without rushing her smile.",
+            "chapters": [
+              "A grumpy morning",
+              "What do I need?",
+              "A little smile"
+            ],
+            "copy": [
+              "Nia could not find her giggle. Everything felt too loud and a little bit wrong.",
+              "\u201cMaybe I need a cuddle and some quiet,\u201d she said. Her grown-up listened and stayed close.",
+              "After a while, a funny little thought arrived. Nia smiled when she was ready."
+            ],
+            "colors": [
+              "#F1E5BA",
+              "#AD873F",
+              "#FCF4DE"
+            ],
+            "motif": "sun"
+          },
+          {
+            "id": "puddle",
+            "title": "Pip and the puddle",
+            "category": "Adventure",
+            "description": "A rainy-day walk becomes a little adventure full of noticing, wondering, and safe splashing.",
+            "chapters": [
+              "After the rain",
+              "A world in the water",
+              "One happy splash"
+            ],
+            "copy": [
+              "Pip put on boots and stepped outside with a grown-up. Rain had left little puddles along the path.",
+              "In one puddle, Pip spotted a cloud and a tree. The tiny pool was holding a piece of the sky.",
+              "With space around and a hand nearby, Pip made one happy splash. The rainy day had a new story."
+            ],
+            "colors": [
+              "#CCE1E9",
+              "#4F7D92",
+              "#F1EBDA"
+            ],
+            "motif": "puddle"
+          },
+          {
+            "id": "wonders",
+            "title": "A pocketful of wonders",
+            "category": "Nature",
+            "description": "A slow walk helps Sam notice the small treasures that make an ordinary day extraordinary.",
+            "chapters": [
+              "Let\u2019s look closely",
+              "Tiny treasures",
+              "Wonders to remember"
+            ],
+            "copy": [
+              "Sam went for a slow walk. \u201cWhat can we notice?\u201d asked their grown-up.",
+              "A curled leaf, a smooth stone, and a bird\u2019s little song became treasures to remember.",
+              "Sam left the living things where they belonged and carried the memories home."
+            ],
+            "colors": [
+              "#DED4C6",
+              "#82705B",
+              "#F6EFDD"
+            ],
+            "motif": "leaf"
+          },
+          {
+            "id": "sleepy",
+            "title": "The sleepy little fox",
+            "category": "Bedtime",
+            "description": "Fox follows a cosy evening routine and learns that resting is part of every adventure.",
+            "chapters": [
+              "One last adventure",
+              "Cosy little comforts",
+              "Dreams can wait"
+            ],
+            "copy": [
+              "Fox wanted one more adventure, but the stars were already coming out.",
+              "A wash, a warm cuddle, and a familiar story helped Fox feel cosy and safe.",
+              "\u201cTomorrow has room for more adventures,\u201d whispered Fox, curling up for a restful night."
+            ],
+            "colors": [
+              "#E8D1BF",
+              "#A26548",
+              "#FFF0DC"
+            ],
+            "motif": "fox"
+          }
+        ]
+      }
+    ],
+    "actions": [],
+    "kind": "library",
+    "tabs": true
+  },
+  {
+    "id": "story",
+    "group": "E",
+    "title": "The little seed",
+    "sub": "Nature",
+    "items": [
+      {
+        "type": "book-intro",
+        "title": "The little seed",
+        "book": {
+          "id": "seed",
+          "title": "The little seed",
+          "category": "Nature",
+          "description": "A tiny seed discovers that growing takes patience, care, and its own special time.",
+          "chapters": [
+            "A quiet beginning",
+            "A little rain",
+            "Hello, little leaf"
+          ],
+          "copy": [
+            "A little seed rested in the soft earth. \u201cWhen will I grow?\u201d it wondered.",
+            "Rain tapped gently on the ground. The seed drank, rested, and reached one tiny root into the earth.",
+            "One morning, a green leaf reached toward the sun. The seed had been growing all along."
+          ],
+          "colors": [
+            "#DDE7CB",
+            "#526B48",
+            "#F6F0D7"
+          ],
+          "motif": "seed"
+        }
+      },
+      {
+        "type": "chapters",
+        "title": "Chapters",
+        "book": {
+          "id": "seed",
+          "title": "The little seed",
+          "category": "Nature",
+          "description": "A tiny seed discovers that growing takes patience, care, and its own special time.",
+          "chapters": [
+            "A quiet beginning",
+            "A little rain",
+            "Hello, little leaf"
+          ],
+          "copy": [
+            "A little seed rested in the soft earth. \u201cWhen will I grow?\u201d it wondered.",
+            "Rain tapped gently on the ground. The seed drank, rested, and reached one tiny root into the earth.",
+            "One morning, a green leaf reached toward the sun. The seed had been growing all along."
+          ],
+          "colors": [
+            "#DDE7CB",
+            "#526B48",
+            "#F6F0D7"
+          ],
+          "motif": "seed"
+        },
+        "routes": [
+          "reader",
+          "reader-2",
+          "reader-3"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Start reading",
+        "to": "reader",
+        "secondary": false
+      }
+    ],
+    "kind": "book-detail",
+    "tabs": false
+  },
+  {
+    "id": "reader",
+    "group": "E",
+    "title": "The little seed",
+    "sub": "Chapter 1 of 3 \u00b7 A quiet beginning",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "The little seed",
+        "bookId": "seed"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "seed",
+    "chapterRoutes": [
+      "reader",
+      "reader-2",
+      "reader-3"
+    ]
+  },
+  {
+    "id": "reader-2",
+    "group": "E",
+    "title": "The little seed",
+    "sub": "Chapter 2 of 3 \u00b7 A little rain",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "The little seed",
+        "bookId": "seed"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "seed",
+    "chapterRoutes": [
+      "reader",
+      "reader-2",
+      "reader-3"
+    ]
+  },
+  {
+    "id": "reader-3",
+    "group": "E",
+    "title": "The little seed",
+    "sub": "Chapter 3 of 3 \u00b7 Hello, little leaf",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "The little seed",
+        "bookId": "seed"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "seed",
+    "chapterRoutes": [
+      "reader",
+      "reader-2",
+      "reader-3"
+    ]
+  },
+  {
+    "id": "story-kind",
+    "group": "E",
+    "title": "A kind little moment",
+    "sub": "Kindness",
+    "items": [
+      {
+        "type": "book-intro",
+        "title": "A kind little moment",
+        "book": {
+          "id": "kind",
+          "title": "A kind little moment",
+          "category": "Kindness",
+          "description": "Milo learns that a small act of kindness can make someone\u2019s whole day feel brighter.",
+          "chapters": [
+            "A lonely bench",
+            "Room for one more",
+            "Kindness comes around"
+          ],
+          "copy": [
+            "Milo saw someone sitting alone. He slowed down and gave a little wave.",
+            "\u201cThere is room beside me,\u201d said Milo. Soon two quiet smiles became a happy conversation.",
+            "The next day, Milo felt shy. His new friend waved him over. A little kindness had found its way back."
+          ],
+          "colors": [
+            "#F3DBD7",
+            "#AC675D",
+            "#FAEFE5"
+          ],
+          "motif": "heart"
+        }
+      },
+      {
+        "type": "chapters",
+        "title": "Chapters",
+        "book": {
+          "id": "kind",
+          "title": "A kind little moment",
+          "category": "Kindness",
+          "description": "Milo learns that a small act of kindness can make someone\u2019s whole day feel brighter.",
+          "chapters": [
+            "A lonely bench",
+            "Room for one more",
+            "Kindness comes around"
+          ],
+          "copy": [
+            "Milo saw someone sitting alone. He slowed down and gave a little wave.",
+            "\u201cThere is room beside me,\u201d said Milo. Soon two quiet smiles became a happy conversation.",
+            "The next day, Milo felt shy. His new friend waved him over. A little kindness had found its way back."
+          ],
+          "colors": [
+            "#F3DBD7",
+            "#AC675D",
+            "#FAEFE5"
+          ],
+          "motif": "heart"
+        },
+        "routes": [
+          "reader-kind-1",
+          "reader-kind-2",
+          "reader-kind-3"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Start reading",
+        "to": "reader-kind-1",
+        "secondary": false
+      }
+    ],
+    "kind": "book-detail",
+    "tabs": false
+  },
+  {
+    "id": "reader-kind-1",
+    "group": "E",
+    "title": "A kind little moment",
+    "sub": "Chapter 1 of 3 \u00b7 A lonely bench",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "A kind little moment",
+        "bookId": "kind"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "kind",
+    "chapterRoutes": [
+      "reader-kind-1",
+      "reader-kind-2",
+      "reader-kind-3"
+    ]
+  },
+  {
+    "id": "reader-kind-2",
+    "group": "E",
+    "title": "A kind little moment",
+    "sub": "Chapter 2 of 3 \u00b7 Room for one more",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "A kind little moment",
+        "bookId": "kind"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "kind",
+    "chapterRoutes": [
+      "reader-kind-1",
+      "reader-kind-2",
+      "reader-kind-3"
+    ]
+  },
+  {
+    "id": "reader-kind-3",
+    "group": "E",
+    "title": "A kind little moment",
+    "sub": "Chapter 3 of 3 \u00b7 Kindness comes around",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "A kind little moment",
+        "bookId": "kind"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "kind",
+    "chapterRoutes": [
+      "reader-kind-1",
+      "reader-kind-2",
+      "reader-kind-3"
+    ]
+  },
+  {
+    "id": "story-cloud",
+    "group": "E",
+    "title": "The colour cloud",
+    "sub": "Feelings",
+    "items": [
+      {
+        "type": "book-intro",
+        "title": "The colour cloud",
+        "book": {
+          "id": "cloud",
+          "title": "The colour cloud",
+          "category": "Feelings",
+          "description": "A little cloud changes colour with every feeling and learns that all feelings are welcome.",
+          "chapters": [
+            "A blue morning",
+            "A rumble of red",
+            "All my colours"
+          ],
+          "copy": [
+            "The little cloud woke up blue. It told the sky, \u201cI feel a little sad today.\u201d",
+            "Later, a loud wind made the cloud feel red and cross. It paused for one slow breath, then another.",
+            "The cloud discovered it could feel many things. Every colour belonged in its sky."
+          ],
+          "colors": [
+            "#DFDBF1",
+            "#75618E",
+            "#F8F1E0"
+          ],
+          "motif": "cloud"
+        }
+      },
+      {
+        "type": "chapters",
+        "title": "Chapters",
+        "book": {
+          "id": "cloud",
+          "title": "The colour cloud",
+          "category": "Feelings",
+          "description": "A little cloud changes colour with every feeling and learns that all feelings are welcome.",
+          "chapters": [
+            "A blue morning",
+            "A rumble of red",
+            "All my colours"
+          ],
+          "copy": [
+            "The little cloud woke up blue. It told the sky, \u201cI feel a little sad today.\u201d",
+            "Later, a loud wind made the cloud feel red and cross. It paused for one slow breath, then another.",
+            "The cloud discovered it could feel many things. Every colour belonged in its sky."
+          ],
+          "colors": [
+            "#DFDBF1",
+            "#75618E",
+            "#F8F1E0"
+          ],
+          "motif": "cloud"
+        },
+        "routes": [
+          "reader-cloud-1",
+          "reader-cloud-2",
+          "reader-cloud-3"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Start reading",
+        "to": "reader-cloud-1",
+        "secondary": false
+      }
+    ],
+    "kind": "book-detail",
+    "tabs": false
+  },
+  {
+    "id": "reader-cloud-1",
+    "group": "E",
+    "title": "The colour cloud",
+    "sub": "Chapter 1 of 3 \u00b7 A blue morning",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "The colour cloud",
+        "bookId": "cloud"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "cloud",
+    "chapterRoutes": [
+      "reader-cloud-1",
+      "reader-cloud-2",
+      "reader-cloud-3"
+    ]
+  },
+  {
+    "id": "reader-cloud-2",
+    "group": "E",
+    "title": "The colour cloud",
+    "sub": "Chapter 2 of 3 \u00b7 A rumble of red",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "The colour cloud",
+        "bookId": "cloud"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "cloud",
+    "chapterRoutes": [
+      "reader-cloud-1",
+      "reader-cloud-2",
+      "reader-cloud-3"
+    ]
+  },
+  {
+    "id": "reader-cloud-3",
+    "group": "E",
+    "title": "The colour cloud",
+    "sub": "Chapter 3 of 3 \u00b7 All my colours",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "The colour cloud",
+        "bookId": "cloud"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "cloud",
+    "chapterRoutes": [
+      "reader-cloud-1",
+      "reader-cloud-2",
+      "reader-cloud-3"
+    ]
+  },
+  {
+    "id": "story-brave",
+    "group": "E",
+    "title": "My brave little step",
+    "sub": "Adventure",
+    "items": [
+      {
+        "type": "book-intro",
+        "title": "My brave little step",
+        "book": {
+          "id": "brave",
+          "title": "My brave little step",
+          "category": "Adventure",
+          "description": "Tara takes one small step toward something new, with a trusted hand beside her.",
+          "chapters": [
+            "Something new",
+            "One small step",
+            "Look what I tried"
+          ],
+          "copy": [
+            "The stepping stones looked a little far apart. Tara held her grown-up\u2019s hand.",
+            "She tried the nearest stone first. Then she paused, looked, and tried the next one.",
+            "\u201cI tried something new,\u201d Tara said. Being brave could happen one little step at a time."
+          ],
+          "colors": [
+            "#EAD8B8",
+            "#917044",
+            "#F7EEE0"
+          ],
+          "motif": "path"
+        }
+      },
+      {
+        "type": "chapters",
+        "title": "Chapters",
+        "book": {
+          "id": "brave",
+          "title": "My brave little step",
+          "category": "Adventure",
+          "description": "Tara takes one small step toward something new, with a trusted hand beside her.",
+          "chapters": [
+            "Something new",
+            "One small step",
+            "Look what I tried"
+          ],
+          "copy": [
+            "The stepping stones looked a little far apart. Tara held her grown-up\u2019s hand.",
+            "She tried the nearest stone first. Then she paused, looked, and tried the next one.",
+            "\u201cI tried something new,\u201d Tara said. Being brave could happen one little step at a time."
+          ],
+          "colors": [
+            "#EAD8B8",
+            "#917044",
+            "#F7EEE0"
+          ],
+          "motif": "path"
+        },
+        "routes": [
+          "reader-brave-1",
+          "reader-brave-2",
+          "reader-brave-3"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Start reading",
+        "to": "reader-brave-1",
+        "secondary": false
+      }
+    ],
+    "kind": "book-detail",
+    "tabs": false
+  },
+  {
+    "id": "reader-brave-1",
+    "group": "E",
+    "title": "My brave little step",
+    "sub": "Chapter 1 of 3 \u00b7 Something new",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "My brave little step",
+        "bookId": "brave"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "brave",
+    "chapterRoutes": [
+      "reader-brave-1",
+      "reader-brave-2",
+      "reader-brave-3"
+    ]
+  },
+  {
+    "id": "reader-brave-2",
+    "group": "E",
+    "title": "My brave little step",
+    "sub": "Chapter 2 of 3 \u00b7 One small step",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "My brave little step",
+        "bookId": "brave"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "brave",
+    "chapterRoutes": [
+      "reader-brave-1",
+      "reader-brave-2",
+      "reader-brave-3"
+    ]
+  },
+  {
+    "id": "reader-brave-3",
+    "group": "E",
+    "title": "My brave little step",
+    "sub": "Chapter 3 of 3 \u00b7 Look what I tried",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "My brave little step",
+        "bookId": "brave"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "brave",
+    "chapterRoutes": [
+      "reader-brave-1",
+      "reader-brave-2",
+      "reader-brave-3"
+    ]
+  },
+  {
+    "id": "story-shine",
+    "group": "E",
+    "title": "Together we shine",
+    "sub": "Kindness",
+    "items": [
+      {
+        "type": "book-intro",
+        "title": "Together we shine",
+        "book": {
+          "id": "shine",
+          "title": "Together we shine",
+          "category": "Kindness",
+          "description": "Three little stars discover that helping one another makes the night a little brighter.",
+          "chapters": [
+            "Three little stars",
+            "A helping sparkle",
+            "Our bright night"
+          ],
+          "copy": [
+            "Three little stars wanted to light the path below. One was bright, one was small, and one was shy.",
+            "They moved closer and each shared a little sparkle. No one had to shine alone.",
+            "Together, they made a gentle light. There was a place for every star in their sky."
+          ],
+          "colors": [
+            "#CCDCD9",
+            "#487C76",
+            "#FFF1C9"
+          ],
+          "motif": "stars"
+        }
+      },
+      {
+        "type": "chapters",
+        "title": "Chapters",
+        "book": {
+          "id": "shine",
+          "title": "Together we shine",
+          "category": "Kindness",
+          "description": "Three little stars discover that helping one another makes the night a little brighter.",
+          "chapters": [
+            "Three little stars",
+            "A helping sparkle",
+            "Our bright night"
+          ],
+          "copy": [
+            "Three little stars wanted to light the path below. One was bright, one was small, and one was shy.",
+            "They moved closer and each shared a little sparkle. No one had to shine alone.",
+            "Together, they made a gentle light. There was a place for every star in their sky."
+          ],
+          "colors": [
+            "#CCDCD9",
+            "#487C76",
+            "#FFF1C9"
+          ],
+          "motif": "stars"
+        },
+        "routes": [
+          "reader-shine-1",
+          "reader-shine-2",
+          "reader-shine-3"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Start reading",
+        "to": "reader-shine-1",
+        "secondary": false
+      }
+    ],
+    "kind": "book-detail",
+    "tabs": false
+  },
+  {
+    "id": "reader-shine-1",
+    "group": "E",
+    "title": "Together we shine",
+    "sub": "Chapter 1 of 3 \u00b7 Three little stars",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "Together we shine",
+        "bookId": "shine"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "shine",
+    "chapterRoutes": [
+      "reader-shine-1",
+      "reader-shine-2",
+      "reader-shine-3"
+    ]
+  },
+  {
+    "id": "reader-shine-2",
+    "group": "E",
+    "title": "Together we shine",
+    "sub": "Chapter 2 of 3 \u00b7 A helping sparkle",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "Together we shine",
+        "bookId": "shine"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "shine",
+    "chapterRoutes": [
+      "reader-shine-1",
+      "reader-shine-2",
+      "reader-shine-3"
+    ]
+  },
+  {
+    "id": "reader-shine-3",
+    "group": "E",
+    "title": "Together we shine",
+    "sub": "Chapter 3 of 3 \u00b7 Our bright night",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "Together we shine",
+        "bookId": "shine"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "shine",
+    "chapterRoutes": [
+      "reader-shine-1",
+      "reader-shine-2",
+      "reader-shine-3"
+    ]
+  },
+  {
+    "id": "story-moon",
+    "group": "E",
+    "title": "The moon\u2019s goodnight",
+    "sub": "Bedtime",
+    "items": [
+      {
+        "type": "book-intro",
+        "title": "The moon\u2019s goodnight",
+        "book": {
+          "id": "moon",
+          "title": "The moon\u2019s goodnight",
+          "category": "Bedtime",
+          "description": "Follow the moon on a gentle journey as the world settles down for sleep.",
+          "chapters": [
+            "The evening hush",
+            "Goodnight, little world",
+            "Time to rest"
+          ],
+          "copy": [
+            "The moon peeked over the hill. All around, the busy day began to slow.",
+            "\u201cGoodnight, trees. Goodnight, birds,\u201d whispered the moon. The world grew softer and quieter.",
+            "One last window glowed. A little child closed their eyes, and the moon kept gentle watch."
+          ],
+          "colors": [
+            "#D3D8EC",
+            "#596687",
+            "#FFF0C5"
+          ],
+          "motif": "moon"
+        }
+      },
+      {
+        "type": "chapters",
+        "title": "Chapters",
+        "book": {
+          "id": "moon",
+          "title": "The moon\u2019s goodnight",
+          "category": "Bedtime",
+          "description": "Follow the moon on a gentle journey as the world settles down for sleep.",
+          "chapters": [
+            "The evening hush",
+            "Goodnight, little world",
+            "Time to rest"
+          ],
+          "copy": [
+            "The moon peeked over the hill. All around, the busy day began to slow.",
+            "\u201cGoodnight, trees. Goodnight, birds,\u201d whispered the moon. The world grew softer and quieter.",
+            "One last window glowed. A little child closed their eyes, and the moon kept gentle watch."
+          ],
+          "colors": [
+            "#D3D8EC",
+            "#596687",
+            "#FFF0C5"
+          ],
+          "motif": "moon"
+        },
+        "routes": [
+          "reader-moon-1",
+          "reader-moon-2",
+          "reader-moon-3"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Start reading",
+        "to": "reader-moon-1",
+        "secondary": false
+      }
+    ],
+    "kind": "book-detail",
+    "tabs": false
+  },
+  {
+    "id": "reader-moon-1",
+    "group": "E",
+    "title": "The moon\u2019s goodnight",
+    "sub": "Chapter 1 of 3 \u00b7 The evening hush",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "The moon\u2019s goodnight",
+        "bookId": "moon"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "moon",
+    "chapterRoutes": [
+      "reader-moon-1",
+      "reader-moon-2",
+      "reader-moon-3"
+    ]
+  },
+  {
+    "id": "reader-moon-2",
+    "group": "E",
+    "title": "The moon\u2019s goodnight",
+    "sub": "Chapter 2 of 3 \u00b7 Goodnight, little world",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "The moon\u2019s goodnight",
+        "bookId": "moon"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "moon",
+    "chapterRoutes": [
+      "reader-moon-1",
+      "reader-moon-2",
+      "reader-moon-3"
+    ]
+  },
+  {
+    "id": "reader-moon-3",
+    "group": "E",
+    "title": "The moon\u2019s goodnight",
+    "sub": "Chapter 3 of 3 \u00b7 Time to rest",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "The moon\u2019s goodnight",
+        "bookId": "moon"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "moon",
+    "chapterRoutes": [
+      "reader-moon-1",
+      "reader-moon-2",
+      "reader-moon-3"
+    ]
+  },
+  {
+    "id": "story-giggle",
+    "group": "E",
+    "title": "Where did my giggle go?",
+    "sub": "Feelings",
+    "items": [
+      {
+        "type": "book-intro",
+        "title": "Where did my giggle go?",
+        "book": {
+          "id": "giggle",
+          "title": "Where did my giggle go?",
+          "category": "Feelings",
+          "description": "On a grumpy day, Nia learns to name her feelings and find comfort without rushing her smile.",
+          "chapters": [
+            "A grumpy morning",
+            "What do I need?",
+            "A little smile"
+          ],
+          "copy": [
+            "Nia could not find her giggle. Everything felt too loud and a little bit wrong.",
+            "\u201cMaybe I need a cuddle and some quiet,\u201d she said. Her grown-up listened and stayed close.",
+            "After a while, a funny little thought arrived. Nia smiled when she was ready."
+          ],
+          "colors": [
+            "#F1E5BA",
+            "#AD873F",
+            "#FCF4DE"
+          ],
+          "motif": "sun"
+        }
+      },
+      {
+        "type": "chapters",
+        "title": "Chapters",
+        "book": {
+          "id": "giggle",
+          "title": "Where did my giggle go?",
+          "category": "Feelings",
+          "description": "On a grumpy day, Nia learns to name her feelings and find comfort without rushing her smile.",
+          "chapters": [
+            "A grumpy morning",
+            "What do I need?",
+            "A little smile"
+          ],
+          "copy": [
+            "Nia could not find her giggle. Everything felt too loud and a little bit wrong.",
+            "\u201cMaybe I need a cuddle and some quiet,\u201d she said. Her grown-up listened and stayed close.",
+            "After a while, a funny little thought arrived. Nia smiled when she was ready."
+          ],
+          "colors": [
+            "#F1E5BA",
+            "#AD873F",
+            "#FCF4DE"
+          ],
+          "motif": "sun"
+        },
+        "routes": [
+          "reader-giggle-1",
+          "reader-giggle-2",
+          "reader-giggle-3"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Start reading",
+        "to": "reader-giggle-1",
+        "secondary": false
+      }
+    ],
+    "kind": "book-detail",
+    "tabs": false
+  },
+  {
+    "id": "reader-giggle-1",
+    "group": "E",
+    "title": "Where did my giggle go?",
+    "sub": "Chapter 1 of 3 \u00b7 A grumpy morning",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "Where did my giggle go?",
+        "bookId": "giggle"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "giggle",
+    "chapterRoutes": [
+      "reader-giggle-1",
+      "reader-giggle-2",
+      "reader-giggle-3"
+    ]
+  },
+  {
+    "id": "reader-giggle-2",
+    "group": "E",
+    "title": "Where did my giggle go?",
+    "sub": "Chapter 2 of 3 \u00b7 What do I need?",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "Where did my giggle go?",
+        "bookId": "giggle"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "giggle",
+    "chapterRoutes": [
+      "reader-giggle-1",
+      "reader-giggle-2",
+      "reader-giggle-3"
+    ]
+  },
+  {
+    "id": "reader-giggle-3",
+    "group": "E",
+    "title": "Where did my giggle go?",
+    "sub": "Chapter 3 of 3 \u00b7 A little smile",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "Where did my giggle go?",
+        "bookId": "giggle"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "giggle",
+    "chapterRoutes": [
+      "reader-giggle-1",
+      "reader-giggle-2",
+      "reader-giggle-3"
+    ]
+  },
+  {
+    "id": "story-puddle",
+    "group": "E",
+    "title": "Pip and the puddle",
+    "sub": "Adventure",
+    "items": [
+      {
+        "type": "book-intro",
+        "title": "Pip and the puddle",
+        "book": {
+          "id": "puddle",
+          "title": "Pip and the puddle",
+          "category": "Adventure",
+          "description": "A rainy-day walk becomes a little adventure full of noticing, wondering, and safe splashing.",
+          "chapters": [
+            "After the rain",
+            "A world in the water",
+            "One happy splash"
+          ],
+          "copy": [
+            "Pip put on boots and stepped outside with a grown-up. Rain had left little puddles along the path.",
+            "In one puddle, Pip spotted a cloud and a tree. The tiny pool was holding a piece of the sky.",
+            "With space around and a hand nearby, Pip made one happy splash. The rainy day had a new story."
+          ],
+          "colors": [
+            "#CCE1E9",
+            "#4F7D92",
+            "#F1EBDA"
+          ],
+          "motif": "puddle"
+        }
+      },
+      {
+        "type": "chapters",
+        "title": "Chapters",
+        "book": {
+          "id": "puddle",
+          "title": "Pip and the puddle",
+          "category": "Adventure",
+          "description": "A rainy-day walk becomes a little adventure full of noticing, wondering, and safe splashing.",
+          "chapters": [
+            "After the rain",
+            "A world in the water",
+            "One happy splash"
+          ],
+          "copy": [
+            "Pip put on boots and stepped outside with a grown-up. Rain had left little puddles along the path.",
+            "In one puddle, Pip spotted a cloud and a tree. The tiny pool was holding a piece of the sky.",
+            "With space around and a hand nearby, Pip made one happy splash. The rainy day had a new story."
+          ],
+          "colors": [
+            "#CCE1E9",
+            "#4F7D92",
+            "#F1EBDA"
+          ],
+          "motif": "puddle"
+        },
+        "routes": [
+          "reader-puddle-1",
+          "reader-puddle-2",
+          "reader-puddle-3"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Start reading",
+        "to": "reader-puddle-1",
+        "secondary": false
+      }
+    ],
+    "kind": "book-detail",
+    "tabs": false
+  },
+  {
+    "id": "reader-puddle-1",
+    "group": "E",
+    "title": "Pip and the puddle",
+    "sub": "Chapter 1 of 3 \u00b7 After the rain",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "Pip and the puddle",
+        "bookId": "puddle"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "puddle",
+    "chapterRoutes": [
+      "reader-puddle-1",
+      "reader-puddle-2",
+      "reader-puddle-3"
+    ]
+  },
+  {
+    "id": "reader-puddle-2",
+    "group": "E",
+    "title": "Pip and the puddle",
+    "sub": "Chapter 2 of 3 \u00b7 A world in the water",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "Pip and the puddle",
+        "bookId": "puddle"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "puddle",
+    "chapterRoutes": [
+      "reader-puddle-1",
+      "reader-puddle-2",
+      "reader-puddle-3"
+    ]
+  },
+  {
+    "id": "reader-puddle-3",
+    "group": "E",
+    "title": "Pip and the puddle",
+    "sub": "Chapter 3 of 3 \u00b7 One happy splash",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "Pip and the puddle",
+        "bookId": "puddle"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "puddle",
+    "chapterRoutes": [
+      "reader-puddle-1",
+      "reader-puddle-2",
+      "reader-puddle-3"
+    ]
+  },
+  {
+    "id": "story-wonders",
+    "group": "E",
+    "title": "A pocketful of wonders",
+    "sub": "Nature",
+    "items": [
+      {
+        "type": "book-intro",
+        "title": "A pocketful of wonders",
+        "book": {
+          "id": "wonders",
+          "title": "A pocketful of wonders",
+          "category": "Nature",
+          "description": "A slow walk helps Sam notice the small treasures that make an ordinary day extraordinary.",
+          "chapters": [
+            "Let\u2019s look closely",
+            "Tiny treasures",
+            "Wonders to remember"
+          ],
+          "copy": [
+            "Sam went for a slow walk. \u201cWhat can we notice?\u201d asked their grown-up.",
+            "A curled leaf, a smooth stone, and a bird\u2019s little song became treasures to remember.",
+            "Sam left the living things where they belonged and carried the memories home."
+          ],
+          "colors": [
+            "#DED4C6",
+            "#82705B",
+            "#F6EFDD"
+          ],
+          "motif": "leaf"
+        }
+      },
+      {
+        "type": "chapters",
+        "title": "Chapters",
+        "book": {
+          "id": "wonders",
+          "title": "A pocketful of wonders",
+          "category": "Nature",
+          "description": "A slow walk helps Sam notice the small treasures that make an ordinary day extraordinary.",
+          "chapters": [
+            "Let\u2019s look closely",
+            "Tiny treasures",
+            "Wonders to remember"
+          ],
+          "copy": [
+            "Sam went for a slow walk. \u201cWhat can we notice?\u201d asked their grown-up.",
+            "A curled leaf, a smooth stone, and a bird\u2019s little song became treasures to remember.",
+            "Sam left the living things where they belonged and carried the memories home."
+          ],
+          "colors": [
+            "#DED4C6",
+            "#82705B",
+            "#F6EFDD"
+          ],
+          "motif": "leaf"
+        },
+        "routes": [
+          "reader-wonders-1",
+          "reader-wonders-2",
+          "reader-wonders-3"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Start reading",
+        "to": "reader-wonders-1",
+        "secondary": false
+      }
+    ],
+    "kind": "book-detail",
+    "tabs": false
+  },
+  {
+    "id": "reader-wonders-1",
+    "group": "E",
+    "title": "A pocketful of wonders",
+    "sub": "Chapter 1 of 3 \u00b7 Let\u2019s look closely",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "A pocketful of wonders",
+        "bookId": "wonders"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "wonders",
+    "chapterRoutes": [
+      "reader-wonders-1",
+      "reader-wonders-2",
+      "reader-wonders-3"
+    ]
+  },
+  {
+    "id": "reader-wonders-2",
+    "group": "E",
+    "title": "A pocketful of wonders",
+    "sub": "Chapter 2 of 3 \u00b7 Tiny treasures",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "A pocketful of wonders",
+        "bookId": "wonders"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "wonders",
+    "chapterRoutes": [
+      "reader-wonders-1",
+      "reader-wonders-2",
+      "reader-wonders-3"
+    ]
+  },
+  {
+    "id": "reader-wonders-3",
+    "group": "E",
+    "title": "A pocketful of wonders",
+    "sub": "Chapter 3 of 3 \u00b7 Wonders to remember",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "A pocketful of wonders",
+        "bookId": "wonders"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "wonders",
+    "chapterRoutes": [
+      "reader-wonders-1",
+      "reader-wonders-2",
+      "reader-wonders-3"
+    ]
+  },
+  {
+    "id": "story-sleepy",
+    "group": "E",
+    "title": "The sleepy little fox",
+    "sub": "Bedtime",
+    "items": [
+      {
+        "type": "book-intro",
+        "title": "The sleepy little fox",
+        "book": {
+          "id": "sleepy",
+          "title": "The sleepy little fox",
+          "category": "Bedtime",
+          "description": "Fox follows a cosy evening routine and learns that resting is part of every adventure.",
+          "chapters": [
+            "One last adventure",
+            "Cosy little comforts",
+            "Dreams can wait"
+          ],
+          "copy": [
+            "Fox wanted one more adventure, but the stars were already coming out.",
+            "A wash, a warm cuddle, and a familiar story helped Fox feel cosy and safe.",
+            "\u201cTomorrow has room for more adventures,\u201d whispered Fox, curling up for a restful night."
+          ],
+          "colors": [
+            "#E8D1BF",
+            "#A26548",
+            "#FFF0DC"
+          ],
+          "motif": "fox"
+        }
+      },
+      {
+        "type": "chapters",
+        "title": "Chapters",
+        "book": {
+          "id": "sleepy",
+          "title": "The sleepy little fox",
+          "category": "Bedtime",
+          "description": "Fox follows a cosy evening routine and learns that resting is part of every adventure.",
+          "chapters": [
+            "One last adventure",
+            "Cosy little comforts",
+            "Dreams can wait"
+          ],
+          "copy": [
+            "Fox wanted one more adventure, but the stars were already coming out.",
+            "A wash, a warm cuddle, and a familiar story helped Fox feel cosy and safe.",
+            "\u201cTomorrow has room for more adventures,\u201d whispered Fox, curling up for a restful night."
+          ],
+          "colors": [
+            "#E8D1BF",
+            "#A26548",
+            "#FFF0DC"
+          ],
+          "motif": "fox"
+        },
+        "routes": [
+          "reader-sleepy-1",
+          "reader-sleepy-2",
+          "reader-sleepy-3"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "label": "Start reading",
+        "to": "reader-sleepy-1",
+        "secondary": false
+      }
+    ],
+    "kind": "book-detail",
+    "tabs": false
+  },
+  {
+    "id": "reader-sleepy-1",
+    "group": "E",
+    "title": "The sleepy little fox",
+    "sub": "Chapter 1 of 3 \u00b7 One last adventure",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "The sleepy little fox",
+        "bookId": "sleepy"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "sleepy",
+    "chapterRoutes": [
+      "reader-sleepy-1",
+      "reader-sleepy-2",
+      "reader-sleepy-3"
+    ]
+  },
+  {
+    "id": "reader-sleepy-2",
+    "group": "E",
+    "title": "The sleepy little fox",
+    "sub": "Chapter 2 of 3 \u00b7 Cosy little comforts",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "The sleepy little fox",
+        "bookId": "sleepy"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "sleepy",
+    "chapterRoutes": [
+      "reader-sleepy-1",
+      "reader-sleepy-2",
+      "reader-sleepy-3"
+    ]
+  },
+  {
+    "id": "reader-sleepy-3",
+    "group": "E",
+    "title": "The sleepy little fox",
+    "sub": "Chapter 3 of 3 \u00b7 Dreams can wait",
+    "items": [
+      {
+        "type": "carousel",
+        "title": "The sleepy little fox",
+        "bookId": "sleepy"
+      },
+      {
+        "type": "video",
+        "title": "Chapter background music",
+        "video": "NDFqrbv6hkg"
+      }
+    ],
+    "actions": [],
+    "kind": "reader",
+    "tabs": false,
+    "bookId": "sleepy",
+    "chapterRoutes": [
+      "reader-sleepy-1",
+      "reader-sleepy-2",
+      "reader-sleepy-3"
+    ]
+  },
+  {
+    "id": "story-video",
+    "group": "E",
+    "title": "Watch together",
+    "sub": "The little seed",
+    "items": [
+      {
+        "type": "art",
+        "title": "video"
+      },
+      {
+        "type": "note",
+        "title": "Embedded YouTube region. An approved video and internet connection are required."
+      }
+    ],
+    "actions": [
+      {
+        "label": "Read the story instead",
+        "to": "reader",
+        "secondary": false
+      }
+    ],
+    "kind": "standard",
+    "tabs": false
+  },
+  {
+    "id": "community",
+    "group": "F",
+    "title": "Little Legacy Community",
+    "sub": "Little moments, shared together.",
+    "items": [
+      {
+        "type": "community-feed",
+        "title": "Community updates"
+      }
+    ],
+    "actions": [],
+    "kind": "community",
+    "tabs": true
+  },
+  {
+    "id": "app-feedback",
+    "group": "F",
+    "title": "Help us grow",
+    "sub": "Tell us about the app or an activity.",
+    "items": [
+      {
+        "type": "field",
+        "title": "Feedback about",
+        "sub": "App / activity",
+        "input": "text"
+      },
+      {
+        "type": "field",
+        "title": "Your feedback",
+        "sub": "What worked? What could be better?",
+        "input": "textarea"
+      },
+      {
+        "type": "row",
+        "title": "Attach a file",
+        "sub": "",
+        "to": "attachments"
+      }
+    ],
+    "actions": [
+      {
+        "label": "Send feedback",
+        "to": "submitted",
+        "secondary": false
+      }
+    ],
+    "kind": "form",
+    "tabs": false
+  },
+  {
+    "id": "attachments",
+    "group": "F",
+    "title": "Add an attachment",
+    "sub": "Choose what you\u2019d like to share.",
+    "items": [
+      {
+        "type": "row",
+        "title": "Choose a photo",
+        "sub": "",
+        "to": "@file"
+      },
+      {
+        "type": "row",
+        "title": "Choose a file",
+        "sub": "",
+        "to": "@file"
+      },
+      {
+        "type": "note",
+        "title": "Review your selection before sending."
+      }
+    ],
+    "actions": [
+      {
+        "label": "Done",
+        "to": "community",
+        "secondary": false
+      },
+      {
+        "label": "Cancel",
+        "to": "community",
+        "secondary": true
+      }
+    ],
+    "kind": "sheet",
+    "tabs": false
+  },
+  {
+    "id": "submitted",
+    "group": "F",
+    "title": "Waiting for admin review",
+    "sub": "Your sample submission is saved on this device.",
+    "items": [
+      {
+        "type": "note",
+        "title": "The admin review and email are simulated in this prototype."
+      }
+    ],
+    "actions": [
+      {
+        "label": "Back to community",
+        "to": "community",
+        "secondary": false
+      }
+    ],
+    "kind": "standard",
+    "tabs": false
+  },
+  {
+    "id": "shop",
+    "group": "G",
+    "title": "Tools for together time",
+    "sub": "Three little ways to play. Demo prices.",
+    "items": [
+      {
+        "type": "kit-list",
+        "title": "Playing kits"
+      }
+    ],
+    "actions": [],
+    "kind": "standard",
+    "tabs": true
+  },
+  {
+    "id": "product",
+    "group": "G",
+    "title": "Little discovery kit",
+    "sub": "Make everyday moments a little more playful.",
+    "items": [
+      {
+        "type": "art",
+        "title": "product"
+      },
+      {
+        "type": "card",
+        "title": "Inside the kit",
+        "sub": "Large sorting shapes, colour cards and playful discovery prompts.",
+        "to": "",
+        "tag": ""
+      },
+      {
+        "type": "note",
+        "title": "\u20b9499 \u00b7 Demo price"
+      }
+    ],
+    "actions": [
+      {
+        "label": "Continue to payment",
+        "to": "checkout",
+        "secondary": false
+      }
+    ],
+    "kind": "detail",
+    "tabs": false
+  },
+  {
+    "id": "request",
+    "group": "G",
+    "title": "Shop payment",
+    "sub": "Playing kits now use the payment flow.",
+    "items": [
+      {
+        "type": "row",
+        "title": "Continue to payment",
+        "to": "checkout",
+        "sub": ""
+      }
+    ],
+    "actions": [],
+    "kind": "form",
+    "tabs": false
+  },
+  {
+    "id": "notifications",
+    "group": "H",
+    "title": "A little update",
+    "sub": "Stay close to what\u2019s new.",
+    "items": [
+      {
+        "type": "note",
+        "title": "Community review updates will appear here. No email is sent by this prototype."
+      }
+    ],
+    "actions": [],
+    "kind": "standard",
+    "tabs": true
+  },
+  {
+    "id": "profile",
+    "group": "H",
+    "title": "Your little corner",
+    "sub": "Manage your family and preferences.",
+    "items": [
+      {
+        "type": "row",
+        "title": "Child profiles",
+        "sub": "",
+        "to": "children"
+      },
+      {
+        "type": "row",
+        "title": "Account settings",
+        "sub": "",
+        "to": "account"
+      },
+      {
+        "type": "row",
+        "title": "Notification preferences",
+        "sub": "",
+        "to": "notification-settings"
+      },
+      {
+        "type": "row",
+        "title": "Sound & motion",
+        "sub": "",
+        "to": "appearance"
+      },
+      {
+        "type": "row",
+        "title": "Help & support",
+        "sub": "",
+        "to": "help"
+      },
+      {
+        "type": "row",
+        "title": "Terms & privacy",
+        "sub": "",
+        "to": "terms"
+      }
+    ],
+    "actions": [],
+    "kind": "standard",
+    "tabs": true
+  },
+  {
+    "id": "account",
+    "group": "H",
+    "title": "Account settings",
+    "sub": "Keep your details up to date.",
+    "items": [
+      {
+        "type": "field",
+        "title": "Your name",
+        "sub": "Parent name",
+        "input": "text"
+      },
+      {
+        "type": "field",
+        "title": "Email address",
+        "sub": "you@example.com",
+        "input": "email"
+      },
+      {
+        "type": "row",
+        "title": "Change password",
+        "sub": "",
+        "to": "reset"
+      }
+    ],
+    "actions": [
+      {
+        "label": "Save changes",
+        "to": "profile",
+        "secondary": false
+      }
+    ],
+    "kind": "form",
+    "tabs": false
+  },
+  {
+    "id": "notification-settings",
+    "group": "H",
+    "title": "Choose your updates",
+    "sub": "You\u2019re in control of what reaches you.",
+    "items": [
+      {
+        "type": "toggle",
+        "title": "Activity reminders",
+        "on": true
+      },
+      {
+        "type": "toggle",
+        "title": "New stories",
+        "on": true
+      },
+      {
+        "type": "toggle",
+        "title": "Community updates",
+        "on": false
+      }
+    ],
+    "actions": [
+      {
+        "label": "Save preferences",
+        "to": "profile",
+        "secondary": false
+      }
+    ],
+    "kind": "standard",
+    "tabs": false
+  },
+  {
+    "id": "appearance",
+    "group": "H",
+    "title": "Make yourself comfortable",
+    "sub": "Choose how Little Legacy looks and feels.",
+    "items": [
+      {
+        "type": "themes",
+        "title": "Appearance"
+      },
+      {
+        "type": "toggle",
+        "title": "Sound effects",
+        "on": false
+      },
+      {
+        "type": "toggle",
+        "title": "Reduced motion",
+        "on": false,
+        "key": "reduced"
+      },
+      {
+        "type": "note",
+        "title": "System follows your device and updates when it changes."
+      }
+    ],
+    "actions": [
+      {
+        "label": "Done",
+        "to": "profile",
+        "secondary": false
+      }
+    ],
+    "kind": "appearance",
+    "tabs": false
+  },
+  {
+    "id": "help",
+    "group": "H",
+    "title": "A little help",
+    "sub": "Find answers or talk to our team.",
+    "items": [
+      {
+        "type": "row",
+        "title": "Manage child profiles",
+        "sub": "",
+        "to": "children"
+      },
+      {
+        "type": "row",
+        "title": "Send a private message",
+        "sub": "",
+        "to": "community"
+      }
+    ],
+    "actions": [],
+    "kind": "standard",
+    "tabs": true
+  },
+  {
+    "id": "terms",
+    "group": "H",
+    "title": "Terms of use",
+    "sub": "Legal content layout",
+    "items": [
+      {
+        "type": "note",
+        "title": "Approved terms will appear here. Preserve the original wording, headings and version date. This wireframe does not supply legal terms."
+      },
+      {
+        "type": "row",
+        "title": "Privacy policy",
+        "sub": "",
+        "to": "privacy"
+      }
+    ],
+    "actions": [
+      {
+        "label": "Back",
+        "to": "@back",
+        "secondary": false
+      }
+    ],
+    "kind": "standard",
+    "tabs": false
+  },
+  {
+    "id": "privacy",
+    "group": "H",
+    "title": "Your family\u2019s privacy",
+    "sub": "Privacy policy layout",
+    "items": [
+      {
+        "type": "note",
+        "title": "Approved privacy wording will appear here, including data use, retention, contact details and your rights. Final text is required."
+      }
+    ],
+    "actions": [
+      {
+        "label": "Back",
+        "to": "@back",
+        "secondary": false
+      }
+    ],
+    "kind": "standard",
+    "tabs": false
+  },
+  {
+    "id": "individual",
+    "group": "D",
+    "title": "Play at your own pace",
+    "sub": "Colour hunt \u00b7 5 minutes",
+    "items": [
+      {
+        "type": "art",
+        "title": "activity"
+      },
+      {
+        "type": "timer",
+        "title": "05:00"
+      },
+      {
+        "type": "row",
+        "title": "Pause timer",
+        "to": "@pause",
+        "sub": ""
+      }
+    ],
+    "actions": [
+      {
+        "label": "Finish early",
+        "to": "@complete",
+        "secondary": false
+      }
+    ],
+    "kind": "individual",
+    "tabs": false
+  },
+  {
+    "id": "community-review",
+    "group": "F",
+    "title": "Share with the community?",
+    "sub": "",
+    "items": [
+      {
+        "type": "note",
+        "title": "Everything you share will be verified by an admin before it appears in the community. You\u2019ll receive an app notification and email when there is an update."
+      },
+      {
+        "type": "note",
+        "title": "This prototype previews the review process. It sends no messages or emails."
+      }
+    ],
+    "actions": [
+      {
+        "label": "Okay",
+        "to": "@community-confirm",
+        "secondary": false
+      },
+      {
+        "label": "Cancel",
+        "to": "@community-cancel",
+        "secondary": true
+      }
+    ],
+    "kind": "sheet",
+    "tabs": false
+  },
+  {
+    "id": "checkout",
+    "group": "G",
+    "title": "Payment",
+    "sub": "Review your kit and payment total.",
+    "items": [
+      {
+        "type": "art",
+        "title": "product"
+      },
+      {
+        "type": "card",
+        "title": "Little discovery kit",
+        "sub": "\u20b9499 \u00b7 Demo total",
+        "to": "",
+        "tag": ""
+      },
+      {
+        "type": "note",
+        "title": "Demo checkout \u00b7 No card details needed. No money will be charged."
+      }
+    ],
+    "actions": [
+      {
+        "label": "Simulate payment",
+        "to": "@pay",
+        "secondary": false
+      },
+      {
+        "label": "Cancel",
+        "to": "product",
+        "secondary": true
+      }
+    ],
+    "kind": "standard",
+    "tabs": false
+  },
+  {
+    "id": "payment-complete",
+    "group": "G",
+    "title": "Demo payment complete",
+    "sub": "",
+    "items": [
+      {
+        "type": "art",
+        "title": "product"
+      },
+      {
+        "type": "note",
+        "title": "Your simulated order is confirmed. No money was charged."
+      }
+    ],
+    "actions": [
+      {
+        "label": "Back to shop",
+        "to": "shop",
+        "secondary": false
+      }
+    ],
+    "kind": "standard",
+    "tabs": false
+  }
+]

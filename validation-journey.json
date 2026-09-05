@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "screens": 99,
+  "activities": {
+    "Cognitive": [
+      3,
+      3,
+      3
+    ],
+    "Physical": [
+      3,
+      3,
+      3
+    ],
+    "Emotional": [
+      3,
+      3,
+      3
+    ],
+    "Social": [
+      3,
+      3,
+      3
+    ],
+    "Creative": [
+      3,
+      3,
+      3
+    ]
+  },
+  "errors": [],
+  "overflows": [],
+  "checked": [
+    "Simulated Google login and child form",
+    "15 level activity lists",
+    "Guidance completion once only",
+    "Preset timer pause/resume, early finish and timer expiry",
+    "Feedback required selection, persistence and skip",
+    "Wishlist and category filter",
+    "3 image pages and chapter end navigation",
+    "YouTube iframe source",
+    "Community Cancel, Okay, media picker, admin preview and notifications",
+    "3 kits and demo payment",
+    "Persistence after reload",
+    "Phone, tablet, dark and reduced motion"
+  ]
+}

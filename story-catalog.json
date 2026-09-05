@@ -1,0 +1,292 @@
+[
+  {
+    "id": "seed",
+    "title": "The little seed",
+    "category": "Nature",
+    "description": "A tiny seed discovers that growing takes patience, care, and its own special time.",
+    "chapters": [
+      "A quiet beginning",
+      "A little rain",
+      "Hello, little leaf"
+    ],
+    "copy": [
+      "A little seed rested in the soft earth. \u201cWhen will I grow?\u201d it wondered.",
+      "Rain tapped gently on the ground. The seed drank, rested, and reached one tiny root into the earth.",
+      "One morning, a green leaf reached toward the sun. The seed had been growing all along."
+    ],
+    "colors": [
+      "#DDE7CB",
+      "#526B48",
+      "#F6F0D7"
+    ],
+    "motif": "seed",
+    "detailId": "story",
+    "chapterRoutes": [
+      "reader",
+      "reader-2",
+      "reader-3"
+    ],
+    "cover": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"180\" height=\"240\" viewBox=\"0 0 180 240\" role=\"img\" aria-label=\"The little seed cover\"><rect width=\"180\" height=\"240\" rx=\"10\" fill=\"#DDE7CB\"/><rect x=\"8\" width=\"3\" height=\"240\" fill=\"#526B48\" opacity=\".13\"/><circle cx=\"95\" cy=\"117\" r=\"68\" fill=\"#F6F0D7\" opacity=\".22\"/><text x=\"94\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"2\" fill=\"#526B48\">LITTLE LEGACY</text><path d=\"M90 172V91\" stroke=\"#526B48\" stroke-width=\"4\"/><path d=\"M90 135C58 134 46 112 52 94c27 1 39 18 38 41Zm0-20c0-27 17-46 43-42 0 26-16 43-43 42Z\" fill=\"#526B48\"/><ellipse cx=\"90\" cy=\"175\" rx=\"43\" ry=\"10\" fill=\"#526B48\" opacity=\".2\"/><path d=\"M70 204h40\" stroke=\"#526B48\" stroke-width=\"1\" opacity=\".45\"/><text x=\"93\" y=\"223\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"1\" fill=\"#526B48\">NATURE</text></svg>"
+  },
+  {
+    "id": "kind",
+    "title": "A kind little moment",
+    "category": "Kindness",
+    "description": "Milo learns that a small act of kindness can make someone\u2019s whole day feel brighter.",
+    "chapters": [
+      "A lonely bench",
+      "Room for one more",
+      "Kindness comes around"
+    ],
+    "copy": [
+      "Milo saw someone sitting alone. He slowed down and gave a little wave.",
+      "\u201cThere is room beside me,\u201d said Milo. Soon two quiet smiles became a happy conversation.",
+      "The next day, Milo felt shy. His new friend waved him over. A little kindness had found its way back."
+    ],
+    "colors": [
+      "#F3DBD7",
+      "#AC675D",
+      "#FAEFE5"
+    ],
+    "motif": "heart",
+    "detailId": "story-kind",
+    "chapterRoutes": [
+      "reader-kind-1",
+      "reader-kind-2",
+      "reader-kind-3"
+    ],
+    "cover": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"180\" height=\"240\" viewBox=\"0 0 180 240\" role=\"img\" aria-label=\"A kind little moment cover\"><rect width=\"180\" height=\"240\" rx=\"10\" fill=\"#F3DBD7\"/><rect x=\"8\" width=\"3\" height=\"240\" fill=\"#AC675D\" opacity=\".13\"/><circle cx=\"95\" cy=\"117\" r=\"68\" fill=\"#FAEFE5\" opacity=\".22\"/><text x=\"94\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"2\" fill=\"#AC675D\">LITTLE LEGACY</text><path d=\"M90 159s-53-32-53-61c0-27 37-32 53-5 16-27 53-22 53 5 0 29-53 61-53 61Z\" fill=\"#AC675D\" opacity=\".8\"/><path d=\"M35 165h110\" stroke=\"#AC675D\" stroke-width=\"2\"/><path d=\"M70 204h40\" stroke=\"#AC675D\" stroke-width=\"1\" opacity=\".45\"/><text x=\"93\" y=\"223\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"1\" fill=\"#AC675D\">KINDNESS</text></svg>"
+  },
+  {
+    "id": "cloud",
+    "title": "The colour cloud",
+    "category": "Feelings",
+    "description": "A little cloud changes colour with every feeling and learns that all feelings are welcome.",
+    "chapters": [
+      "A blue morning",
+      "A rumble of red",
+      "All my colours"
+    ],
+    "copy": [
+      "The little cloud woke up blue. It told the sky, \u201cI feel a little sad today.\u201d",
+      "Later, a loud wind made the cloud feel red and cross. It paused for one slow breath, then another.",
+      "The cloud discovered it could feel many things. Every colour belonged in its sky."
+    ],
+    "colors": [
+      "#DFDBF1",
+      "#75618E",
+      "#F8F1E0"
+    ],
+    "motif": "cloud",
+    "detailId": "story-cloud",
+    "chapterRoutes": [
+      "reader-cloud-1",
+      "reader-cloud-2",
+      "reader-cloud-3"
+    ],
+    "cover": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"180\" height=\"240\" viewBox=\"0 0 180 240\" role=\"img\" aria-label=\"The colour cloud cover\"><rect width=\"180\" height=\"240\" rx=\"10\" fill=\"#DFDBF1\"/><rect x=\"8\" width=\"3\" height=\"240\" fill=\"#75618E\" opacity=\".13\"/><circle cx=\"95\" cy=\"117\" r=\"68\" fill=\"#F8F1E0\" opacity=\".22\"/><text x=\"94\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"2\" fill=\"#75618E\">LITTLE LEGACY</text><path d=\"M47 134c-25 0-25-39 0-41 6-33 57-39 73-9 34-3 47 50 9 50Z\" fill=\"#F8F1E0\"/><path d=\"M58 150v13m31-11v23m31-25v12\" stroke=\"#75618E\" stroke-width=\"5\" stroke-linecap=\"round\"/><path d=\"M70 204h40\" stroke=\"#75618E\" stroke-width=\"1\" opacity=\".45\"/><text x=\"93\" y=\"223\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"1\" fill=\"#75618E\">FEELINGS</text></svg>"
+  },
+  {
+    "id": "brave",
+    "title": "My brave little step",
+    "category": "Adventure",
+    "description": "Tara takes one small step toward something new, with a trusted hand beside her.",
+    "chapters": [
+      "Something new",
+      "One small step",
+      "Look what I tried"
+    ],
+    "copy": [
+      "The stepping stones looked a little far apart. Tara held her grown-up\u2019s hand.",
+      "She tried the nearest stone first. Then she paused, looked, and tried the next one.",
+      "\u201cI tried something new,\u201d Tara said. Being brave could happen one little step at a time."
+    ],
+    "colors": [
+      "#EAD8B8",
+      "#917044",
+      "#F7EEE0"
+    ],
+    "motif": "path",
+    "detailId": "story-brave",
+    "chapterRoutes": [
+      "reader-brave-1",
+      "reader-brave-2",
+      "reader-brave-3"
+    ],
+    "cover": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"180\" height=\"240\" viewBox=\"0 0 180 240\" role=\"img\" aria-label=\"My brave little step cover\"><rect width=\"180\" height=\"240\" rx=\"10\" fill=\"#EAD8B8\"/><rect x=\"8\" width=\"3\" height=\"240\" fill=\"#917044\" opacity=\".13\"/><circle cx=\"95\" cy=\"117\" r=\"68\" fill=\"#F7EEE0\" opacity=\".22\"/><text x=\"94\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"2\" fill=\"#917044\">LITTLE LEGACY</text><path d=\"M22 180 67 106l28 42 31-66 43 98Z\" fill=\"#917044\" opacity=\".3\"/><path d=\"M91 184c49-26-42-40-6-63\" stroke=\"#F7EEE0\" stroke-width=\"10\" fill=\"none\"/><path d=\"M128 86V54l25 12-25 12\" stroke=\"#917044\" stroke-width=\"3\"/><path d=\"M70 204h40\" stroke=\"#917044\" stroke-width=\"1\" opacity=\".45\"/><text x=\"93\" y=\"223\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"1\" fill=\"#917044\">ADVENTURE</text></svg>"
+  },
+  {
+    "id": "shine",
+    "title": "Together we shine",
+    "category": "Kindness",
+    "description": "Three little stars discover that helping one another makes the night a little brighter.",
+    "chapters": [
+      "Three little stars",
+      "A helping sparkle",
+      "Our bright night"
+    ],
+    "copy": [
+      "Three little stars wanted to light the path below. One was bright, one was small, and one was shy.",
+      "They moved closer and each shared a little sparkle. No one had to shine alone.",
+      "Together, they made a gentle light. There was a place for every star in their sky."
+    ],
+    "colors": [
+      "#CCDCD9",
+      "#487C76",
+      "#FFF1C9"
+    ],
+    "motif": "stars",
+    "detailId": "story-shine",
+    "chapterRoutes": [
+      "reader-shine-1",
+      "reader-shine-2",
+      "reader-shine-3"
+    ],
+    "cover": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"180\" height=\"240\" viewBox=\"0 0 180 240\" role=\"img\" aria-label=\"Together we shine cover\"><rect width=\"180\" height=\"240\" rx=\"10\" fill=\"#CCDCD9\"/><rect x=\"8\" width=\"3\" height=\"240\" fill=\"#487C76\" opacity=\".13\"/><circle cx=\"95\" cy=\"117\" r=\"68\" fill=\"#FFF1C9\" opacity=\".22\"/><text x=\"94\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"2\" fill=\"#487C76\">LITTLE LEGACY</text><path d=\"m90 67 10 29 31 2-24 19 7 30-24-18-25 18 8-30-25-19 31-2Z\" fill=\"#FFF1C9\"/><path d=\"m37 132 5 12 13 2-10 8 2 13-10-7-11 7 3-13-10-8 13-2Zm106-57 4 10 11 2-8 7 2 11-9-6-9 6 3-11-9-7 11-2Z\" fill=\"#487C76\" opacity=\".65\"/><path d=\"M70 204h40\" stroke=\"#487C76\" stroke-width=\"1\" opacity=\".45\"/><text x=\"93\" y=\"223\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"1\" fill=\"#487C76\">KINDNESS</text></svg>"
+  },
+  {
+    "id": "moon",
+    "title": "The moon\u2019s goodnight",
+    "category": "Bedtime",
+    "description": "Follow the moon on a gentle journey as the world settles down for sleep.",
+    "chapters": [
+      "The evening hush",
+      "Goodnight, little world",
+      "Time to rest"
+    ],
+    "copy": [
+      "The moon peeked over the hill. All around, the busy day began to slow.",
+      "\u201cGoodnight, trees. Goodnight, birds,\u201d whispered the moon. The world grew softer and quieter.",
+      "One last window glowed. A little child closed their eyes, and the moon kept gentle watch."
+    ],
+    "colors": [
+      "#D3D8EC",
+      "#596687",
+      "#FFF0C5"
+    ],
+    "motif": "moon",
+    "detailId": "story-moon",
+    "chapterRoutes": [
+      "reader-moon-1",
+      "reader-moon-2",
+      "reader-moon-3"
+    ],
+    "cover": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"180\" height=\"240\" viewBox=\"0 0 180 240\" role=\"img\" aria-label=\"The moon\u2019s goodnight cover\"><rect width=\"180\" height=\"240\" rx=\"10\" fill=\"#D3D8EC\"/><rect x=\"8\" width=\"3\" height=\"240\" fill=\"#596687\" opacity=\".13\"/><circle cx=\"95\" cy=\"117\" r=\"68\" fill=\"#FFF0C5\" opacity=\".22\"/><text x=\"94\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"2\" fill=\"#596687\">LITTLE LEGACY</text><path d=\"M106 64c-32 34-13 78 28 81-47 26-89-6-82-43 4-22 26-37 54-38Z\" fill=\"#FFF0C5\"/><circle cx=\"136\" cy=\"74\" r=\"3\" fill=\"#596687\"/><circle cx=\"38\" cy=\"153\" r=\"3\" fill=\"#596687\"/><path d=\"m134 112 4-8 4 8-4 8Z\" fill=\"#FFF0C5\"/><path d=\"M70 204h40\" stroke=\"#596687\" stroke-width=\"1\" opacity=\".45\"/><text x=\"93\" y=\"223\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"1\" fill=\"#596687\">BEDTIME</text></svg>"
+  },
+  {
+    "id": "giggle",
+    "title": "Where did my giggle go?",
+    "category": "Feelings",
+    "description": "On a grumpy day, Nia learns to name her feelings and find comfort without rushing her smile.",
+    "chapters": [
+      "A grumpy morning",
+      "What do I need?",
+      "A little smile"
+    ],
+    "copy": [
+      "Nia could not find her giggle. Everything felt too loud and a little bit wrong.",
+      "\u201cMaybe I need a cuddle and some quiet,\u201d she said. Her grown-up listened and stayed close.",
+      "After a while, a funny little thought arrived. Nia smiled when she was ready."
+    ],
+    "colors": [
+      "#F1E5BA",
+      "#AD873F",
+      "#FCF4DE"
+    ],
+    "motif": "sun",
+    "detailId": "story-giggle",
+    "chapterRoutes": [
+      "reader-giggle-1",
+      "reader-giggle-2",
+      "reader-giggle-3"
+    ],
+    "cover": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"180\" height=\"240\" viewBox=\"0 0 180 240\" role=\"img\" aria-label=\"Where did my giggle go? cover\"><rect width=\"180\" height=\"240\" rx=\"10\" fill=\"#F1E5BA\"/><rect x=\"8\" width=\"3\" height=\"240\" fill=\"#AD873F\" opacity=\".13\"/><circle cx=\"95\" cy=\"117\" r=\"68\" fill=\"#FCF4DE\" opacity=\".22\"/><text x=\"94\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"2\" fill=\"#AD873F\">LITTLE LEGACY</text><circle cx=\"90\" cy=\"119\" r=\"39\" fill=\"#FCF4DE\"/><path d=\"M76 127q14 18 28 0M90 59v-9M90 187v-9M30 119h-9M159 119h-9M47 76l-7-7m100 100-7-7M47 161l-7 7m100-99-7 7\" stroke=\"#AD873F\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"77\" cy=\"112\" r=\"3\" fill=\"#AD873F\"/><circle cx=\"103\" cy=\"112\" r=\"3\" fill=\"#AD873F\"/><path d=\"M70 204h40\" stroke=\"#AD873F\" stroke-width=\"1\" opacity=\".45\"/><text x=\"93\" y=\"223\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"1\" fill=\"#AD873F\">FEELINGS</text></svg>"
+  },
+  {
+    "id": "puddle",
+    "title": "Pip and the puddle",
+    "category": "Adventure",
+    "description": "A rainy-day walk becomes a little adventure full of noticing, wondering, and safe splashing.",
+    "chapters": [
+      "After the rain",
+      "A world in the water",
+      "One happy splash"
+    ],
+    "copy": [
+      "Pip put on boots and stepped outside with a grown-up. Rain had left little puddles along the path.",
+      "In one puddle, Pip spotted a cloud and a tree. The tiny pool was holding a piece of the sky.",
+      "With space around and a hand nearby, Pip made one happy splash. The rainy day had a new story."
+    ],
+    "colors": [
+      "#CCE1E9",
+      "#4F7D92",
+      "#F1EBDA"
+    ],
+    "motif": "puddle",
+    "detailId": "story-puddle",
+    "chapterRoutes": [
+      "reader-puddle-1",
+      "reader-puddle-2",
+      "reader-puddle-3"
+    ],
+    "cover": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"180\" height=\"240\" viewBox=\"0 0 180 240\" role=\"img\" aria-label=\"Pip and the puddle cover\"><rect width=\"180\" height=\"240\" rx=\"10\" fill=\"#CCE1E9\"/><rect x=\"8\" width=\"3\" height=\"240\" fill=\"#4F7D92\" opacity=\".13\"/><circle cx=\"95\" cy=\"117\" r=\"68\" fill=\"#F1EBDA\" opacity=\".22\"/><text x=\"94\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"2\" fill=\"#4F7D92\">LITTLE LEGACY</text><ellipse cx=\"90\" cy=\"163\" rx=\"60\" ry=\"18\" fill=\"#4F7D92\" opacity=\".25\"/><path d=\"M51 97h29v49h17c16 0 18 20 0 20H51Zm52-12h28v51h15c15 0 15 17 0 17h-43Z\" fill=\"#F1EBDA\"/><path d=\"M47 75v-9m54-9V45m43 34V67\" stroke=\"#4F7D92\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M70 204h40\" stroke=\"#4F7D92\" stroke-width=\"1\" opacity=\".45\"/><text x=\"93\" y=\"223\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"1\" fill=\"#4F7D92\">ADVENTURE</text></svg>"
+  },
+  {
+    "id": "wonders",
+    "title": "A pocketful of wonders",
+    "category": "Nature",
+    "description": "A slow walk helps Sam notice the small treasures that make an ordinary day extraordinary.",
+    "chapters": [
+      "Let\u2019s look closely",
+      "Tiny treasures",
+      "Wonders to remember"
+    ],
+    "copy": [
+      "Sam went for a slow walk. \u201cWhat can we notice?\u201d asked their grown-up.",
+      "A curled leaf, a smooth stone, and a bird\u2019s little song became treasures to remember.",
+      "Sam left the living things where they belonged and carried the memories home."
+    ],
+    "colors": [
+      "#DED4C6",
+      "#82705B",
+      "#F6EFDD"
+    ],
+    "motif": "leaf",
+    "detailId": "story-wonders",
+    "chapterRoutes": [
+      "reader-wonders-1",
+      "reader-wonders-2",
+      "reader-wonders-3"
+    ],
+    "cover": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"180\" height=\"240\" viewBox=\"0 0 180 240\" role=\"img\" aria-label=\"A pocketful of wonders cover\"><rect width=\"180\" height=\"240\" rx=\"10\" fill=\"#DED4C6\"/><rect x=\"8\" width=\"3\" height=\"240\" fill=\"#82705B\" opacity=\".13\"/><circle cx=\"95\" cy=\"117\" r=\"68\" fill=\"#F6EFDD\" opacity=\".22\"/><text x=\"94\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"2\" fill=\"#82705B\">LITTLE LEGACY</text><path d=\"M53 165C27 87 81 66 139 76c9 61-25 96-86 89Z\" fill=\"#82705B\" opacity=\".7\"/><path d=\"m53 167 66-72m-38 41 2-31m16 13 24-1m-56 37-3-30\" stroke=\"#F6EFDD\" stroke-width=\"2\"/><path d=\"M70 204h40\" stroke=\"#82705B\" stroke-width=\"1\" opacity=\".45\"/><text x=\"93\" y=\"223\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"1\" fill=\"#82705B\">NATURE</text></svg>"
+  },
+  {
+    "id": "sleepy",
+    "title": "The sleepy little fox",
+    "category": "Bedtime",
+    "description": "Fox follows a cosy evening routine and learns that resting is part of every adventure.",
+    "chapters": [
+      "One last adventure",
+      "Cosy little comforts",
+      "Dreams can wait"
+    ],
+    "copy": [
+      "Fox wanted one more adventure, but the stars were already coming out.",
+      "A wash, a warm cuddle, and a familiar story helped Fox feel cosy and safe.",
+      "\u201cTomorrow has room for more adventures,\u201d whispered Fox, curling up for a restful night."
+    ],
+    "colors": [
+      "#E8D1BF",
+      "#A26548",
+      "#FFF0DC"
+    ],
+    "motif": "fox",
+    "detailId": "story-sleepy",
+    "chapterRoutes": [
+      "reader-sleepy-1",
+      "reader-sleepy-2",
+      "reader-sleepy-3"
+    ],
+    "cover": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"180\" height=\"240\" viewBox=\"0 0 180 240\" role=\"img\" aria-label=\"The sleepy little fox cover\"><rect width=\"180\" height=\"240\" rx=\"10\" fill=\"#E8D1BF\"/><rect x=\"8\" width=\"3\" height=\"240\" fill=\"#A26548\" opacity=\".13\"/><circle cx=\"95\" cy=\"117\" r=\"68\" fill=\"#FFF0DC\" opacity=\".22\"/><text x=\"94\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"2\" fill=\"#A26548\">LITTLE LEGACY</text><path d=\"m47 86 37 16 34-26 28 69c-2 44-98 48-110 4Z\" fill=\"#A26548\"/><path d=\"m39 146 43-28 57 27c-17 34-78 38-100 1Z\" fill=\"#FFF0DC\"/><path d=\"m61 143 8 3 8-4m24-3 8 4 8-4\" stroke=\"#A26548\" stroke-width=\"2\" fill=\"none\"/><path d=\"m81 154 8 6 8-7Z\" fill=\"#A26548\"/><path d=\"M70 204h40\" stroke=\"#A26548\" stroke-width=\"1\" opacity=\".45\"/><text x=\"93\" y=\"223\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"8\" letter-spacing=\"1\" fill=\"#A26548\">BEDTIME</text></svg>"
+  }
+]
